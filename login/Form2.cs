@@ -59,7 +59,7 @@ namespace login
             }
         }
 
-        //order Enter 
+        //確認點餐
         void inputOrderData(String foodId, String foodName, String price, String quantity, String totalPrice, String remarks)
         {
 
@@ -67,6 +67,36 @@ namespace login
             rows.Add(new Object[] { foodId, foodName, price, quantity, totalPrice, remarks});
 
         }
+
+        //結帳
+        void checkOut()
+        {
+            if (dataGridView1.Rows.Count > 0)
+            {
+                DateTime date = DateTime.Now; // 現在時間
+                for (int i=0;i< dataGridView1.Rows.Count-1; i++)
+                {
+
+                    DataGridViewRow row = dataGridView1.Rows[i];
+                    string foodId = row.Cells["id"].Value.ToString();
+                    string foodName = row.Cells["productName"].Value.ToString();
+                    int price = Convert.ToInt32(row.Cells["price"].Value);
+                    int quantity = Convert.ToInt32(row.Cells["quantity"].Value);
+                    int totalPrice = Convert.ToInt32(row.Cells["totalPrice"].Value);
+                    string remarks = row.Cells["Remark"].Value.ToString();
+
+                    //MessageBox.Show("點餐成功");
+                    //MessageBox.Show("編號 : " + foodId + " 產品名稱 : " + foodName + " 單價 : " + price + " 數量 : " + quantity
+                    //    + " 金額 : " + totalPrice + " 備註" + remarks);
+
+                }
+            }
+            else
+            {
+                MessageBox.Show("您尚未點餐");
+            }
+        }
+
         public Report()
         {
             InitializeComponent();
@@ -503,7 +533,7 @@ namespace login
             inputNumberBoxOrderData(00, priceBox.Text);
         }
 
-        // sure
+        // 確認(Enter)
         private void button14_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(idBox.Text) &&
@@ -519,6 +549,14 @@ namespace login
             {
                 MessageBox.Show("請填寫所有餐點欄位");
             }
+        }
+
+        //-------------------------------------------
+        //功能性按鈕
+        //結帳
+        private void Checkout_Click(object sender, EventArgs e)
+        {
+            checkOut();
         }
 
         //-------------------------------------------

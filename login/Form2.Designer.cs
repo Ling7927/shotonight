@@ -109,12 +109,6 @@
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.orderTable = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.productName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sum = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.money = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Remark = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TransactionDetailsTable = new System.Windows.Forms.TabPage();
             this.Checkout = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -130,6 +124,12 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.remarkBox = new System.Windows.Forms.TextBox();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.productName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.totalPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Remark = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.酒精.SuspendLayout();
             this.主餐.SuspendLayout();
@@ -1027,8 +1027,8 @@
             this.id,
             this.productName,
             this.price,
-            this.sum,
-            this.money,
+            this.quantity,
+            this.totalPrice,
             this.Remark});
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
@@ -1037,42 +1037,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(808, 569);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // id
-            // 
-            this.id.HeaderText = "編號";
-            this.id.MinimumWidth = 6;
-            this.id.Name = "id";
-            // 
-            // productName
-            // 
-            this.productName.HeaderText = "產品名稱";
-            this.productName.MinimumWidth = 6;
-            this.productName.Name = "productName";
-            // 
-            // price
-            // 
-            this.price.HeaderText = "單價";
-            this.price.MinimumWidth = 6;
-            this.price.Name = "price";
-            // 
-            // sum
-            // 
-            this.sum.HeaderText = "數量";
-            this.sum.MinimumWidth = 6;
-            this.sum.Name = "sum";
-            // 
-            // money
-            // 
-            this.money.HeaderText = "金額";
-            this.money.MinimumWidth = 6;
-            this.money.Name = "money";
-            // 
-            // Remark
-            // 
-            this.Remark.HeaderText = "備註";
-            this.Remark.MinimumWidth = 6;
-            this.Remark.Name = "Remark";
             // 
             // TransactionDetailsTable
             // 
@@ -1092,6 +1056,7 @@
             this.Checkout.TabIndex = 8;
             this.Checkout.Text = "結帳";
             this.Checkout.UseVisualStyleBackColor = true;
+            this.Checkout.Click += new System.EventHandler(this.Checkout_Click);
             // 
             // button8
             // 
@@ -1203,6 +1168,44 @@
             this.remarkBox.Name = "remarkBox";
             this.remarkBox.Size = new System.Drawing.Size(352, 25);
             this.remarkBox.TabIndex = 21;
+            // 
+            // id
+            // 
+            this.id.HeaderText = "編號";
+            this.id.MinimumWidth = 6;
+            this.id.Name = "id";
+            // 
+            // productName
+            // 
+            this.productName.HeaderText = "產品名稱";
+            this.productName.MinimumWidth = 6;
+            this.productName.Name = "productName";
+            // 
+            // price
+            // 
+            this.price.HeaderText = "單價";
+            this.price.MinimumWidth = 6;
+            this.price.Name = "price";
+            // 
+            // quantity
+            // 
+            this.quantity.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.quantity.HeaderText = "數量";
+            this.quantity.MinimumWidth = 6;
+            this.quantity.Name = "quantity";
+            this.quantity.Width = 125;
+            // 
+            // totalPrice
+            // 
+            this.totalPrice.HeaderText = "金額";
+            this.totalPrice.MinimumWidth = 6;
+            this.totalPrice.Name = "totalPrice";
+            // 
+            // Remark
+            // 
+            this.Remark.HeaderText = "備註";
+            this.Remark.MinimumWidth = 6;
+            this.Remark.Name = "Remark";
             // 
             // Report
             // 
@@ -1330,12 +1333,6 @@
         private System.Windows.Forms.TabPage orderTable;
         private System.Windows.Forms.TabPage TransactionDetailsTable;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn productName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn price;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sum;
-        private System.Windows.Forms.DataGridViewTextBoxColumn money;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Remark;
         private System.Windows.Forms.Button Checkout;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.TextBox idBox;
@@ -1350,5 +1347,11 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox remarkBox;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn productName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn price;
+        private System.Windows.Forms.DataGridViewTextBoxColumn quantity;
+        private System.Windows.Forms.DataGridViewTextBoxColumn totalPrice;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Remark;
     }
 }
