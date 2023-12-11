@@ -1,6 +1,6 @@
 ﻿namespace login
 {
-    partial class Form2
+    partial class Report
     {
         /// <summary>
         /// Required designer variable.
@@ -28,29 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
-            "",
-            "起司炸雞",
-            "左宗棠炸雞",
-            "粉紅泡泡"}, -1);
-            this.listView1 = new System.Windows.Forms.ListView();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.酒精 = new System.Windows.Forms.TabPage();
+            this.button55 = new System.Windows.Forms.Button();
+            this.button46 = new System.Windows.Forms.Button();
+            this.button47 = new System.Windows.Forms.Button();
+            this.button48 = new System.Windows.Forms.Button();
+            this.button50 = new System.Windows.Forms.Button();
+            this.button51 = new System.Windows.Forms.Button();
+            this.button52 = new System.Windows.Forms.Button();
+            this.button53 = new System.Windows.Forms.Button();
+            this.button42 = new System.Windows.Forms.Button();
+            this.button43 = new System.Windows.Forms.Button();
+            this.button44 = new System.Windows.Forms.Button();
+            this.button45 = new System.Windows.Forms.Button();
+            this.button38 = new System.Windows.Forms.Button();
+            this.button39 = new System.Windows.Forms.Button();
+            this.button40 = new System.Windows.Forms.Button();
+            this.button41 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
             this.button36 = new System.Windows.Forms.Button();
             this.button37 = new System.Windows.Forms.Button();
             this.主餐 = new System.Windows.Forms.TabPage();
+            this.button72 = new System.Windows.Forms.Button();
+            this.button73 = new System.Windows.Forms.Button();
+            this.button74 = new System.Windows.Forms.Button();
+            this.button75 = new System.Windows.Forms.Button();
+            this.button76 = new System.Windows.Forms.Button();
+            this.button77 = new System.Windows.Forms.Button();
+            this.button58 = new System.Windows.Forms.Button();
+            this.button59 = new System.Windows.Forms.Button();
+            this.button60 = new System.Windows.Forms.Button();
+            this.button61 = new System.Windows.Forms.Button();
             this.button31 = new System.Windows.Forms.Button();
             this.button32 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
             this.button34 = new System.Windows.Forms.Button();
             this.炸物 = new System.Windows.Forms.TabPage();
+            this.button65 = new System.Windows.Forms.Button();
+            this.button70 = new System.Windows.Forms.Button();
+            this.button71 = new System.Windows.Forms.Button();
+            this.button78 = new System.Windows.Forms.Button();
+            this.button79 = new System.Windows.Forms.Button();
+            this.button66 = new System.Windows.Forms.Button();
+            this.button67 = new System.Windows.Forms.Button();
+            this.button68 = new System.Windows.Forms.Button();
+            this.button69 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.shot = new System.Windows.Forms.TabPage();
+            this.button81 = new System.Windows.Forms.Button();
+            this.button82 = new System.Windows.Forms.Button();
+            this.button83 = new System.Windows.Forms.Button();
+            this.button84 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
             this.button29 = new System.Windows.Forms.Button();
@@ -60,113 +93,54 @@
             this.button24 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.sure = new System.Windows.Forms.GroupBox();
             this.button14 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
+            this.doubleZero = new System.Windows.Forms.Button();
+            this.Zero = new System.Windows.Forms.Button();
+            this.nine = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.seven = new System.Windows.Forms.Button();
+            this.Six = new System.Windows.Forms.Button();
+            this.Five = new System.Windows.Forms.Button();
+            this.Four = new System.Windows.Forms.Button();
+            this.Three = new System.Windows.Forms.Button();
+            this.two = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.button39 = new System.Windows.Forms.Button();
-            this.button40 = new System.Windows.Forms.Button();
-            this.button41 = new System.Windows.Forms.Button();
-            this.button42 = new System.Windows.Forms.Button();
-            this.button43 = new System.Windows.Forms.Button();
-            this.button44 = new System.Windows.Forms.Button();
-            this.button45 = new System.Windows.Forms.Button();
-            this.button46 = new System.Windows.Forms.Button();
-            this.button47 = new System.Windows.Forms.Button();
-            this.button48 = new System.Windows.Forms.Button();
-            this.button49 = new System.Windows.Forms.Button();
-            this.button50 = new System.Windows.Forms.Button();
-            this.button51 = new System.Windows.Forms.Button();
-            this.button52 = new System.Windows.Forms.Button();
-            this.button53 = new System.Windows.Forms.Button();
-            this.button54 = new System.Windows.Forms.Button();
-            this.button55 = new System.Windows.Forms.Button();
-            this.button56 = new System.Windows.Forms.Button();
-            this.button57 = new System.Windows.Forms.Button();
-            this.button58 = new System.Windows.Forms.Button();
-            this.button59 = new System.Windows.Forms.Button();
-            this.button60 = new System.Windows.Forms.Button();
-            this.button61 = new System.Windows.Forms.Button();
-            this.button72 = new System.Windows.Forms.Button();
-            this.button73 = new System.Windows.Forms.Button();
-            this.button74 = new System.Windows.Forms.Button();
-            this.button75 = new System.Windows.Forms.Button();
-            this.button76 = new System.Windows.Forms.Button();
-            this.button77 = new System.Windows.Forms.Button();
-            this.button66 = new System.Windows.Forms.Button();
-            this.button67 = new System.Windows.Forms.Button();
-            this.button68 = new System.Windows.Forms.Button();
-            this.button69 = new System.Windows.Forms.Button();
-            this.button65 = new System.Windows.Forms.Button();
-            this.button70 = new System.Windows.Forms.Button();
-            this.button71 = new System.Windows.Forms.Button();
-            this.button78 = new System.Windows.Forms.Button();
-            this.button79 = new System.Windows.Forms.Button();
-            this.button81 = new System.Windows.Forms.Button();
-            this.button82 = new System.Windows.Forms.Button();
-            this.button83 = new System.Windows.Forms.Button();
-            this.button84 = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+            this.tabControl2 = new System.Windows.Forms.TabControl();
+            this.orderTable = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.productName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sum = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.money = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Remark = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TransactionDetailsTable = new System.Windows.Forms.TabPage();
+            this.Checkout = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.idBox = new System.Windows.Forms.TextBox();
+            this.nameBox = new System.Windows.Forms.TextBox();
+            this.priceBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.quantityBox = new System.Windows.Forms.TextBox();
+            this.totalPriceBox = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.remarkBox = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.酒精.SuspendLayout();
             this.主餐.SuspendLayout();
             this.炸物.SuspendLayout();
             this.shot.SuspendLayout();
             this.套餐.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
-            this.flowLayoutPanel2.SuspendLayout();
-            this.flowLayoutPanel3.SuspendLayout();
-            this.flowLayoutPanel4.SuspendLayout();
-            this.flowLayoutPanel5.SuspendLayout();
+            this.sure.SuspendLayout();
+            this.tabControl2.SuspendLayout();
+            this.orderTable.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // listView1
-            // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1});
-            this.listView1.HideSelection = false;
-            this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem4});
-            this.listView1.Location = new System.Drawing.Point(12, 16);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(773, 423);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // tabControl1
             // 
@@ -175,23 +149,19 @@
             this.tabControl1.Controls.Add(this.炸物);
             this.tabControl1.Controls.Add(this.shot);
             this.tabControl1.Controls.Add(this.套餐);
-            this.tabControl1.Location = new System.Drawing.Point(786, 12);
+            this.tabControl1.Location = new System.Drawing.Point(816, 27);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(435, 427);
+            this.tabControl1.Size = new System.Drawing.Size(435, 364);
             this.tabControl1.TabIndex = 1;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
             // 酒精
             // 
-            this.酒精.Controls.Add(this.button54);
             this.酒精.Controls.Add(this.button55);
-            this.酒精.Controls.Add(this.button56);
-            this.酒精.Controls.Add(this.button57);
             this.酒精.Controls.Add(this.button46);
             this.酒精.Controls.Add(this.button47);
             this.酒精.Controls.Add(this.button48);
-            this.酒精.Controls.Add(this.button49);
             this.酒精.Controls.Add(this.button50);
             this.酒精.Controls.Add(this.button51);
             this.酒精.Controls.Add(this.button52);
@@ -208,522 +178,22 @@
             this.酒精.Controls.Add(this.button35);
             this.酒精.Controls.Add(this.button36);
             this.酒精.Controls.Add(this.button37);
-            this.酒精.Location = new System.Drawing.Point(4, 28);
+            this.酒精.Location = new System.Drawing.Point(4, 25);
             this.酒精.Name = "酒精";
             this.酒精.Padding = new System.Windows.Forms.Padding(3);
-            this.酒精.Size = new System.Drawing.Size(427, 395);
+            this.酒精.Size = new System.Drawing.Size(427, 335);
             this.酒精.TabIndex = 0;
             this.酒精.Text = "酒精";
             this.酒精.UseVisualStyleBackColor = true;
             // 
-            // button18
-            // 
-            this.button18.Location = new System.Drawing.Point(321, 0);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(106, 65);
-            this.button18.TabIndex = 7;
-            this.button18.Text = "梅焦綠";
-            this.button18.UseVisualStyleBackColor = true;
-            // 
-            // button35
-            // 
-            this.button35.Location = new System.Drawing.Point(216, 0);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(106, 65);
-            this.button35.TabIndex = 6;
-            this.button35.Text = "我莓了";
-            this.button35.UseVisualStyleBackColor = true;
-            // 
-            // button36
-            // 
-            this.button36.Location = new System.Drawing.Point(111, 0);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(106, 65);
-            this.button36.TabIndex = 5;
-            this.button36.Text = "三天三夜";
-            this.button36.UseVisualStyleBackColor = true;
-            // 
-            // button37
-            // 
-            this.button37.Location = new System.Drawing.Point(2, 0);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(110, 65);
-            this.button37.TabIndex = 4;
-            this.button37.Text = "不醉不歸";
-            this.button37.UseVisualStyleBackColor = true;
-            this.button37.Click += new System.EventHandler(this.button37_Click);
-            // 
-            // 主餐
-            // 
-            this.主餐.Controls.Add(this.button72);
-            this.主餐.Controls.Add(this.button73);
-            this.主餐.Controls.Add(this.button74);
-            this.主餐.Controls.Add(this.button75);
-            this.主餐.Controls.Add(this.button76);
-            this.主餐.Controls.Add(this.button77);
-            this.主餐.Controls.Add(this.button58);
-            this.主餐.Controls.Add(this.button59);
-            this.主餐.Controls.Add(this.button60);
-            this.主餐.Controls.Add(this.button61);
-            this.主餐.Controls.Add(this.button31);
-            this.主餐.Controls.Add(this.button32);
-            this.主餐.Controls.Add(this.button33);
-            this.主餐.Controls.Add(this.button34);
-            this.主餐.Location = new System.Drawing.Point(4, 28);
-            this.主餐.Name = "主餐";
-            this.主餐.Padding = new System.Windows.Forms.Padding(3);
-            this.主餐.Size = new System.Drawing.Size(427, 395);
-            this.主餐.TabIndex = 1;
-            this.主餐.Text = "主餐";
-            this.主餐.UseVisualStyleBackColor = true;
-            this.主餐.Click += new System.EventHandler(this.tabPage2_Click);
-            // 
-            // button31
-            // 
-            this.button31.Location = new System.Drawing.Point(321, 0);
-            this.button31.Name = "button31";
-            this.button31.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.button31.Size = new System.Drawing.Size(106, 65);
-            this.button31.TabIndex = 7;
-            this.button31.Text = "羅勒雞肉青醬義大利麵";
-            this.button31.UseVisualStyleBackColor = true;
-            // 
-            // button32
-            // 
-            this.button32.Location = new System.Drawing.Point(216, 0);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(106, 65);
-            this.button32.TabIndex = 6;
-            this.button32.Text = "經典肉醬義大利麵";
-            this.button32.UseVisualStyleBackColor = true;
-            // 
-            // button33
-            // 
-            this.button33.Location = new System.Drawing.Point(111, 0);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(106, 65);
-            this.button33.TabIndex = 5;
-            this.button33.Text = "奶油起司寬麵";
-            this.button33.UseVisualStyleBackColor = true;
-            // 
-            // button34
-            // 
-            this.button34.Location = new System.Drawing.Point(2, 0);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(110, 65);
-            this.button34.TabIndex = 4;
-            this.button34.Text = "白酒蛤蜊義大利麵";
-            this.button34.UseVisualStyleBackColor = true;
-            // 
-            // 炸物
-            // 
-            this.炸物.Controls.Add(this.button65);
-            this.炸物.Controls.Add(this.button70);
-            this.炸物.Controls.Add(this.button71);
-            this.炸物.Controls.Add(this.button78);
-            this.炸物.Controls.Add(this.button79);
-            this.炸物.Controls.Add(this.button66);
-            this.炸物.Controls.Add(this.button67);
-            this.炸物.Controls.Add(this.button68);
-            this.炸物.Controls.Add(this.button69);
-            this.炸物.Controls.Add(this.button22);
-            this.炸物.Controls.Add(this.button21);
-            this.炸物.Controls.Add(this.button20);
-            this.炸物.Controls.Add(this.button19);
-            this.炸物.Location = new System.Drawing.Point(4, 28);
-            this.炸物.Name = "炸物";
-            this.炸物.Size = new System.Drawing.Size(427, 395);
-            this.炸物.TabIndex = 2;
-            this.炸物.Text = "下酒菜";
-            this.炸物.UseVisualStyleBackColor = true;
-            // 
-            // button22
-            // 
-            this.button22.Location = new System.Drawing.Point(319, 0);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(106, 65);
-            this.button22.TabIndex = 3;
-            this.button22.Text = "韓式炸雞";
-            this.button22.UseVisualStyleBackColor = true;
-            this.button22.Click += new System.EventHandler(this.button22_Click);
-            // 
-            // button21
-            // 
-            this.button21.Location = new System.Drawing.Point(214, 0);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(106, 65);
-            this.button21.TabIndex = 2;
-            this.button21.Text = "左宗棠炸雞";
-            this.button21.UseVisualStyleBackColor = true;
-            this.button21.Click += new System.EventHandler(this.button21_Click);
-            // 
-            // button20
-            // 
-            this.button20.Location = new System.Drawing.Point(109, 0);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(106, 65);
-            this.button20.TabIndex = 1;
-            this.button20.Text = "美式肉醬薯條";
-            this.button20.UseVisualStyleBackColor = true;
-            this.button20.Click += new System.EventHandler(this.button20_Click);
-            // 
-            // button19
-            // 
-            this.button19.Location = new System.Drawing.Point(0, 0);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(110, 65);
-            this.button19.TabIndex = 0;
-            this.button19.Text = "松露薯條";
-            this.button19.UseVisualStyleBackColor = true;
-            // 
-            // shot
-            // 
-            this.shot.Controls.Add(this.button81);
-            this.shot.Controls.Add(this.button82);
-            this.shot.Controls.Add(this.button83);
-            this.shot.Controls.Add(this.button84);
-            this.shot.Controls.Add(this.button27);
-            this.shot.Controls.Add(this.button28);
-            this.shot.Controls.Add(this.button29);
-            this.shot.Controls.Add(this.button30);
-            this.shot.Location = new System.Drawing.Point(4, 28);
-            this.shot.Name = "shot";
-            this.shot.Size = new System.Drawing.Size(427, 395);
-            this.shot.TabIndex = 3;
-            this.shot.Text = "SHOT";
-            this.shot.UseVisualStyleBackColor = true;
-            // 
-            // button27
-            // 
-            this.button27.Location = new System.Drawing.Point(320, 1);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(106, 65);
-            this.button27.TabIndex = 7;
-            this.button27.Text = "琴酒";
-            this.button27.UseVisualStyleBackColor = true;
-            // 
-            // button28
-            // 
-            this.button28.Location = new System.Drawing.Point(215, 1);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(106, 65);
-            this.button28.TabIndex = 6;
-            this.button28.Text = "蘭姆酒";
-            this.button28.UseVisualStyleBackColor = true;
-            // 
-            // button29
-            // 
-            this.button29.Location = new System.Drawing.Point(110, 1);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(106, 65);
-            this.button29.TabIndex = 5;
-            this.button29.Text = "香醇威士忌";
-            this.button29.UseVisualStyleBackColor = true;
-            // 
-            // button30
-            // 
-            this.button30.Location = new System.Drawing.Point(1, 1);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(110, 65);
-            this.button30.TabIndex = 4;
-            this.button30.Text = "伏特加";
-            this.button30.UseVisualStyleBackColor = true;
-            // 
-            // 套餐
-            // 
-            this.套餐.Controls.Add(this.button23);
-            this.套餐.Controls.Add(this.button24);
-            this.套餐.Controls.Add(this.button25);
-            this.套餐.Controls.Add(this.button26);
-            this.套餐.Location = new System.Drawing.Point(4, 28);
-            this.套餐.Name = "套餐";
-            this.套餐.Size = new System.Drawing.Size(427, 395);
-            this.套餐.TabIndex = 4;
-            this.套餐.Text = "套餐";
-            this.套餐.UseVisualStyleBackColor = true;
-            // 
-            // button23
-            // 
-            this.button23.Location = new System.Drawing.Point(319, 3);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(106, 65);
-            this.button23.TabIndex = 7;
-            this.button23.Text = "D套餐";
-            this.button23.UseVisualStyleBackColor = true;
-            // 
-            // button24
-            // 
-            this.button24.Location = new System.Drawing.Point(214, 3);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(106, 65);
-            this.button24.TabIndex = 6;
-            this.button24.Text = "C套餐";
-            this.button24.UseVisualStyleBackColor = true;
-            // 
-            // button25
-            // 
-            this.button25.Location = new System.Drawing.Point(109, 3);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(106, 65);
-            this.button25.TabIndex = 5;
-            this.button25.Text = "B套餐";
-            this.button25.UseVisualStyleBackColor = true;
-            // 
-            // button26
-            // 
-            this.button26.Location = new System.Drawing.Point(0, 3);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(110, 65);
-            this.button26.TabIndex = 4;
-            this.button26.Text = "A套餐";
-            this.button26.UseVisualStyleBackColor = true;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.button14);
-            this.groupBox1.Controls.Add(this.button13);
-            this.groupBox1.Controls.Add(this.button12);
-            this.groupBox1.Controls.Add(this.button11);
-            this.groupBox1.Controls.Add(this.button10);
-            this.groupBox1.Controls.Add(this.button9);
-            this.groupBox1.Controls.Add(this.button8);
-            this.groupBox1.Controls.Add(this.button7);
-            this.groupBox1.Controls.Add(this.button6);
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Location = new System.Drawing.Point(794, 454);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(442, 190);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "計算機";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
-            // 
-            // button14
-            // 
-            this.button14.Location = new System.Drawing.Point(322, 124);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(106, 59);
-            this.button14.TabIndex = 11;
-            this.button14.Text = "Enter";
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
-            // 
-            // button13
-            // 
-            this.button13.Location = new System.Drawing.Point(220, 124);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(106, 59);
-            this.button13.TabIndex = 10;
-            this.button13.Text = "00";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(121, 124);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(106, 59);
-            this.button12.TabIndex = 9;
-            this.button12.Text = "0";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(20, 124);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(106, 59);
-            this.button11.TabIndex = 8;
-            this.button11.Text = "9";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(322, 73);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(106, 59);
-            this.button10.TabIndex = 7;
-            this.button10.Text = "8";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(220, 73);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(106, 59);
-            this.button9.TabIndex = 6;
-            this.button9.Text = "7";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(121, 73);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(106, 59);
-            this.button8.TabIndex = 5;
-            this.button8.Text = "6";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(20, 73);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(106, 59);
-            this.button7.TabIndex = 4;
-            this.button7.Text = "5";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(322, 17);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(106, 59);
-            this.button6.TabIndex = 3;
-            this.button6.Text = "4";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(220, 17);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(106, 59);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "3";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(121, 17);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(106, 59);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "2";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(20, 17);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(106, 59);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "1";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Controls.Add(this.button15);
-            this.flowLayoutPanel1.Controls.Add(this.button16);
-            this.flowLayoutPanel1.Controls.Add(this.button17);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 454);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(773, 190);
-            this.flowLayoutPanel1.TabIndex = 3;
-            // 
-            // button15
-            // 
-            this.button15.Location = new System.Drawing.Point(10, 5);
-            this.button15.Margin = new System.Windows.Forms.Padding(10, 5, 10, 10);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(240, 70);
-            this.button15.TabIndex = 0;
-            this.button15.Text = "結帳";
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // button16
-            // 
-            this.button16.Location = new System.Drawing.Point(270, 5);
-            this.button16.Margin = new System.Windows.Forms.Padding(10, 5, 10, 10);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(240, 70);
-            this.button16.TabIndex = 1;
-            this.button16.Text = "報表";
-            this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.button16_Click);
-            // 
-            // button17
-            // 
-            this.button17.Location = new System.Drawing.Point(525, 5);
-            this.button17.Margin = new System.Windows.Forms.Padding(5);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(240, 70);
-            this.button17.TabIndex = 2;
-            this.button17.Text = "點餐";
-            this.button17.UseVisualStyleBackColor = true;
-            // 
-            // button38
-            // 
-            this.button38.Location = new System.Drawing.Point(320, 64);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(106, 65);
-            this.button38.TabIndex = 11;
-            this.button38.Text = "口以麻";
-            this.button38.UseVisualStyleBackColor = true;
-            // 
-            // button39
-            // 
-            this.button39.Location = new System.Drawing.Point(215, 64);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(106, 65);
-            this.button39.TabIndex = 10;
-            this.button39.Text = "紅心芭樂多";
-            this.button39.UseVisualStyleBackColor = true;
-            // 
-            // button40
-            // 
-            this.button40.Location = new System.Drawing.Point(110, 64);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(106, 65);
-            this.button40.TabIndex = 9;
-            this.button40.Text = "手下柳琴";
-            this.button40.UseVisualStyleBackColor = true;
-            // 
-            // button41
-            // 
-            this.button41.Location = new System.Drawing.Point(1, 64);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(110, 65);
-            this.button41.TabIndex = 8;
-            this.button41.Text = "芒綠的一天";
-            this.button41.UseVisualStyleBackColor = true;
-            // 
-            // button42
-            // 
-            this.button42.Location = new System.Drawing.Point(320, 132);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(106, 65);
-            this.button42.TabIndex = 15;
-            this.button42.Text = "綠色的天空";
-            this.button42.UseVisualStyleBackColor = true;
-            // 
-            // button43
-            // 
-            this.button43.Location = new System.Drawing.Point(215, 132);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(106, 65);
-            this.button43.TabIndex = 14;
-            this.button43.Text = "黃色的大樹";
-            this.button43.UseVisualStyleBackColor = true;
-            // 
-            // button44
-            // 
-            this.button44.Location = new System.Drawing.Point(110, 132);
-            this.button44.Name = "button44";
-            this.button44.Size = new System.Drawing.Size(106, 65);
-            this.button44.TabIndex = 13;
-            this.button44.Text = "白色的大海";
-            this.button44.UseVisualStyleBackColor = true;
-            // 
-            // button45
-            // 
-            this.button45.Location = new System.Drawing.Point(1, 132);
-            this.button45.Name = "button45";
-            this.button45.Size = new System.Drawing.Size(110, 65);
-            this.button45.TabIndex = 12;
-            this.button45.Text = "黑色漂流瓶";
-            this.button45.UseVisualStyleBackColor = true;
+            // button55
+            // 
+            this.button55.Location = new System.Drawing.Point(3, 265);
+            this.button55.Name = "button55";
+            this.button55.Size = new System.Drawing.Size(106, 65);
+            this.button55.TabIndex = 26;
+            this.button55.Text = "MIX威夷";
+            this.button55.UseVisualStyleBackColor = true;
             // 
             // button46
             // 
@@ -740,7 +210,7 @@
             this.button47.Name = "button47";
             this.button47.Size = new System.Drawing.Size(106, 65);
             this.button47.TabIndex = 22;
-            this.button47.Text = "嘻哈牛仔";
+            this.button47.Text = "結帳";
             this.button47.UseVisualStyleBackColor = true;
             // 
             // button48
@@ -751,15 +221,6 @@
             this.button48.TabIndex = 21;
             this.button48.Text = "碧落大地";
             this.button48.UseVisualStyleBackColor = true;
-            // 
-            // button49
-            // 
-            this.button49.Location = new System.Drawing.Point(1, 265);
-            this.button49.Name = "button49";
-            this.button49.Size = new System.Drawing.Size(110, 65);
-            this.button49.TabIndex = 20;
-            this.button49.Text = "渣南";
-            this.button49.UseVisualStyleBackColor = true;
             // 
             // button50
             // 
@@ -797,78 +258,145 @@
             this.button53.Text = "粉紅泡泡";
             this.button53.UseVisualStyleBackColor = true;
             // 
-            // button54
+            // button42
             // 
-            this.button54.Location = new System.Drawing.Point(320, 329);
-            this.button54.Name = "button54";
-            this.button54.Size = new System.Drawing.Size(106, 65);
-            this.button54.TabIndex = 27;
-            this.button54.Text = "哈勒路亞";
-            this.button54.UseVisualStyleBackColor = true;
+            this.button42.Location = new System.Drawing.Point(320, 132);
+            this.button42.Name = "button42";
+            this.button42.Size = new System.Drawing.Size(106, 65);
+            this.button42.TabIndex = 15;
+            this.button42.Text = "綠色的天空";
+            this.button42.UseVisualStyleBackColor = true;
             // 
-            // button55
+            // button43
             // 
-            this.button55.Location = new System.Drawing.Point(215, 329);
-            this.button55.Name = "button55";
-            this.button55.Size = new System.Drawing.Size(106, 65);
-            this.button55.TabIndex = 26;
-            this.button55.Text = "MIX威夷";
-            this.button55.UseVisualStyleBackColor = true;
+            this.button43.Location = new System.Drawing.Point(215, 132);
+            this.button43.Name = "button43";
+            this.button43.Size = new System.Drawing.Size(106, 65);
+            this.button43.TabIndex = 14;
+            this.button43.Text = "黃色的大樹";
+            this.button43.UseVisualStyleBackColor = true;
             // 
-            // button56
+            // button44
             // 
-            this.button56.Location = new System.Drawing.Point(110, 329);
-            this.button56.Name = "button56";
-            this.button56.Size = new System.Drawing.Size(106, 65);
-            this.button56.TabIndex = 25;
-            this.button56.Text = "地心引力";
-            this.button56.UseVisualStyleBackColor = true;
+            this.button44.Location = new System.Drawing.Point(110, 132);
+            this.button44.Name = "button44";
+            this.button44.Size = new System.Drawing.Size(106, 65);
+            this.button44.TabIndex = 13;
+            this.button44.Text = "白色的大海";
+            this.button44.UseVisualStyleBackColor = true;
             // 
-            // button57
+            // button45
             // 
-            this.button57.Location = new System.Drawing.Point(1, 329);
-            this.button57.Name = "button57";
-            this.button57.Size = new System.Drawing.Size(110, 65);
-            this.button57.TabIndex = 24;
-            this.button57.Text = "森永牛奶糖";
-            this.button57.UseVisualStyleBackColor = true;
+            this.button45.Location = new System.Drawing.Point(1, 132);
+            this.button45.Name = "button45";
+            this.button45.Size = new System.Drawing.Size(110, 65);
+            this.button45.TabIndex = 12;
+            this.button45.Text = "黑色漂流瓶";
+            this.button45.UseVisualStyleBackColor = true;
             // 
-            // button58
+            // button38
             // 
-            this.button58.Location = new System.Drawing.Point(320, 64);
-            this.button58.Name = "button58";
-            this.button58.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.button58.Size = new System.Drawing.Size(106, 65);
-            this.button58.TabIndex = 11;
-            this.button58.Text = "羅勒雞肉青醬義大利麵";
-            this.button58.UseVisualStyleBackColor = true;
+            this.button38.Location = new System.Drawing.Point(320, 64);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(106, 65);
+            this.button38.TabIndex = 11;
+            this.button38.Text = "口以麻";
+            this.button38.UseVisualStyleBackColor = true;
             // 
-            // button59
+            // button39
             // 
-            this.button59.Location = new System.Drawing.Point(215, 64);
-            this.button59.Name = "button59";
-            this.button59.Size = new System.Drawing.Size(106, 65);
-            this.button59.TabIndex = 10;
-            this.button59.Text = "經典肉醬義大利麵";
-            this.button59.UseVisualStyleBackColor = true;
+            this.button39.Location = new System.Drawing.Point(215, 64);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(106, 65);
+            this.button39.TabIndex = 10;
+            this.button39.Text = "紅心芭樂多";
+            this.button39.UseVisualStyleBackColor = true;
+            this.button39.Click += new System.EventHandler(this.button39_Click);
             // 
-            // button60
+            // button40
             // 
-            this.button60.Location = new System.Drawing.Point(110, 64);
-            this.button60.Name = "button60";
-            this.button60.Size = new System.Drawing.Size(106, 65);
-            this.button60.TabIndex = 9;
-            this.button60.Text = "奶油起司寬麵";
-            this.button60.UseVisualStyleBackColor = true;
+            this.button40.Location = new System.Drawing.Point(110, 64);
+            this.button40.Name = "button40";
+            this.button40.Size = new System.Drawing.Size(106, 65);
+            this.button40.TabIndex = 9;
+            this.button40.Text = "手下柳琴";
+            this.button40.UseVisualStyleBackColor = true;
+            this.button40.Click += new System.EventHandler(this.button40_Click);
             // 
-            // button61
+            // button41
             // 
-            this.button61.Location = new System.Drawing.Point(1, 64);
-            this.button61.Name = "button61";
-            this.button61.Size = new System.Drawing.Size(110, 65);
-            this.button61.TabIndex = 8;
-            this.button61.Text = "白酒蛤蜊義大利麵";
-            this.button61.UseVisualStyleBackColor = true;
+            this.button41.Location = new System.Drawing.Point(1, 64);
+            this.button41.Name = "button41";
+            this.button41.Size = new System.Drawing.Size(110, 65);
+            this.button41.TabIndex = 8;
+            this.button41.Text = "芒綠的一天";
+            this.button41.UseVisualStyleBackColor = true;
+            this.button41.Click += new System.EventHandler(this.button41_Click);
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(321, 0);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(106, 65);
+            this.button18.TabIndex = 7;
+            this.button18.Text = "梅焦綠";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click_1);
+            // 
+            // button35
+            // 
+            this.button35.Location = new System.Drawing.Point(216, 0);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(106, 65);
+            this.button35.TabIndex = 6;
+            this.button35.Text = "我莓了";
+            this.button35.UseVisualStyleBackColor = true;
+            this.button35.Click += new System.EventHandler(this.button35_Click);
+            // 
+            // button36
+            // 
+            this.button36.Location = new System.Drawing.Point(111, 0);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(106, 65);
+            this.button36.TabIndex = 5;
+            this.button36.Text = "三天三夜";
+            this.button36.UseVisualStyleBackColor = true;
+            this.button36.Click += new System.EventHandler(this.button36_Click);
+            // 
+            // button37
+            // 
+            this.button37.Location = new System.Drawing.Point(2, 0);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(110, 65);
+            this.button37.TabIndex = 4;
+            this.button37.Text = "不醉不歸";
+            this.button37.UseVisualStyleBackColor = true;
+            this.button37.Click += new System.EventHandler(this.button37_Click);
+            // 
+            // 主餐
+            // 
+            this.主餐.Controls.Add(this.button72);
+            this.主餐.Controls.Add(this.button73);
+            this.主餐.Controls.Add(this.button74);
+            this.主餐.Controls.Add(this.button75);
+            this.主餐.Controls.Add(this.button76);
+            this.主餐.Controls.Add(this.button77);
+            this.主餐.Controls.Add(this.button58);
+            this.主餐.Controls.Add(this.button59);
+            this.主餐.Controls.Add(this.button60);
+            this.主餐.Controls.Add(this.button61);
+            this.主餐.Controls.Add(this.button31);
+            this.主餐.Controls.Add(this.button32);
+            this.主餐.Controls.Add(this.button33);
+            this.主餐.Controls.Add(this.button34);
+            this.主餐.Location = new System.Drawing.Point(4, 25);
+            this.主餐.Name = "主餐";
+            this.主餐.Padding = new System.Windows.Forms.Padding(3);
+            this.主餐.Size = new System.Drawing.Size(427, 335);
+            this.主餐.TabIndex = 1;
+            this.主餐.Text = "主餐";
+            this.主餐.UseVisualStyleBackColor = true;
+            this.主餐.Click += new System.EventHandler(this.tabPage2_Click);
             // 
             // button72
             // 
@@ -924,41 +452,101 @@
             this.button77.Text = "椒麻乾麵";
             this.button77.UseVisualStyleBackColor = true;
             // 
-            // button66
+            // button58
             // 
-            this.button66.Location = new System.Drawing.Point(320, 64);
-            this.button66.Name = "button66";
-            this.button66.Size = new System.Drawing.Size(106, 65);
-            this.button66.TabIndex = 47;
-            this.button66.Text = "炸物拼盤";
-            this.button66.UseVisualStyleBackColor = true;
+            this.button58.Location = new System.Drawing.Point(320, 64);
+            this.button58.Name = "button58";
+            this.button58.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.button58.Size = new System.Drawing.Size(106, 65);
+            this.button58.TabIndex = 11;
+            this.button58.Text = "羅勒雞肉青醬義大利麵";
+            this.button58.UseVisualStyleBackColor = true;
             // 
-            // button67
+            // button59
             // 
-            this.button67.Location = new System.Drawing.Point(215, 64);
-            this.button67.Name = "button67";
-            this.button67.Size = new System.Drawing.Size(106, 65);
-            this.button67.TabIndex = 46;
-            this.button67.Text = "南方一級棒棒腿";
-            this.button67.UseVisualStyleBackColor = true;
+            this.button59.Location = new System.Drawing.Point(215, 64);
+            this.button59.Name = "button59";
+            this.button59.Size = new System.Drawing.Size(106, 65);
+            this.button59.TabIndex = 10;
+            this.button59.Text = "經典肉醬義大利麵";
+            this.button59.UseVisualStyleBackColor = true;
             // 
-            // button68
+            // button60
             // 
-            this.button68.Location = new System.Drawing.Point(110, 64);
-            this.button68.Name = "button68";
-            this.button68.Size = new System.Drawing.Size(106, 65);
-            this.button68.TabIndex = 45;
-            this.button68.Text = "避風塘牛肉塊";
-            this.button68.UseVisualStyleBackColor = true;
+            this.button60.Location = new System.Drawing.Point(110, 64);
+            this.button60.Name = "button60";
+            this.button60.Size = new System.Drawing.Size(106, 65);
+            this.button60.TabIndex = 9;
+            this.button60.Text = "奶油起司寬麵";
+            this.button60.UseVisualStyleBackColor = true;
             // 
-            // button69
+            // button61
             // 
-            this.button69.Location = new System.Drawing.Point(1, 64);
-            this.button69.Name = "button69";
-            this.button69.Size = new System.Drawing.Size(110, 65);
-            this.button69.TabIndex = 44;
-            this.button69.Text = "四拉差雞軟骨";
-            this.button69.UseVisualStyleBackColor = true;
+            this.button61.Location = new System.Drawing.Point(1, 64);
+            this.button61.Name = "button61";
+            this.button61.Size = new System.Drawing.Size(110, 65);
+            this.button61.TabIndex = 8;
+            this.button61.Text = "白酒蛤蜊義大利麵";
+            this.button61.UseVisualStyleBackColor = true;
+            // 
+            // button31
+            // 
+            this.button31.Location = new System.Drawing.Point(321, 0);
+            this.button31.Name = "button31";
+            this.button31.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.button31.Size = new System.Drawing.Size(106, 65);
+            this.button31.TabIndex = 7;
+            this.button31.Text = "羅勒雞肉青醬義大利麵";
+            this.button31.UseVisualStyleBackColor = true;
+            // 
+            // button32
+            // 
+            this.button32.Location = new System.Drawing.Point(216, 0);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(106, 65);
+            this.button32.TabIndex = 6;
+            this.button32.Text = "經典肉醬義大利麵";
+            this.button32.UseVisualStyleBackColor = true;
+            // 
+            // button33
+            // 
+            this.button33.Location = new System.Drawing.Point(111, 0);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(106, 65);
+            this.button33.TabIndex = 5;
+            this.button33.Text = "奶油起司寬麵";
+            this.button33.UseVisualStyleBackColor = true;
+            // 
+            // button34
+            // 
+            this.button34.Location = new System.Drawing.Point(2, 0);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(110, 65);
+            this.button34.TabIndex = 4;
+            this.button34.Text = "白酒蛤蜊義大利麵";
+            this.button34.UseVisualStyleBackColor = true;
+            // 
+            // 炸物
+            // 
+            this.炸物.Controls.Add(this.button65);
+            this.炸物.Controls.Add(this.button70);
+            this.炸物.Controls.Add(this.button71);
+            this.炸物.Controls.Add(this.button78);
+            this.炸物.Controls.Add(this.button79);
+            this.炸物.Controls.Add(this.button66);
+            this.炸物.Controls.Add(this.button67);
+            this.炸物.Controls.Add(this.button68);
+            this.炸物.Controls.Add(this.button69);
+            this.炸物.Controls.Add(this.button22);
+            this.炸物.Controls.Add(this.button21);
+            this.炸物.Controls.Add(this.button20);
+            this.炸物.Controls.Add(this.button19);
+            this.炸物.Location = new System.Drawing.Point(4, 25);
+            this.炸物.Name = "炸物";
+            this.炸物.Size = new System.Drawing.Size(427, 335);
+            this.炸物.TabIndex = 2;
+            this.炸物.Text = "下酒菜";
+            this.炸物.UseVisualStyleBackColor = true;
             // 
             // button65
             // 
@@ -1006,6 +594,98 @@
             this.button79.Text = "奈奈桂心豬";
             this.button79.UseVisualStyleBackColor = true;
             // 
+            // button66
+            // 
+            this.button66.Location = new System.Drawing.Point(320, 64);
+            this.button66.Name = "button66";
+            this.button66.Size = new System.Drawing.Size(106, 65);
+            this.button66.TabIndex = 47;
+            this.button66.Text = "炸物拼盤";
+            this.button66.UseVisualStyleBackColor = true;
+            // 
+            // button67
+            // 
+            this.button67.Location = new System.Drawing.Point(215, 64);
+            this.button67.Name = "button67";
+            this.button67.Size = new System.Drawing.Size(106, 65);
+            this.button67.TabIndex = 46;
+            this.button67.Text = "南方一級棒棒腿";
+            this.button67.UseVisualStyleBackColor = true;
+            // 
+            // button68
+            // 
+            this.button68.Location = new System.Drawing.Point(110, 64);
+            this.button68.Name = "button68";
+            this.button68.Size = new System.Drawing.Size(106, 65);
+            this.button68.TabIndex = 45;
+            this.button68.Text = "避風塘牛肉塊";
+            this.button68.UseVisualStyleBackColor = true;
+            // 
+            // button69
+            // 
+            this.button69.Location = new System.Drawing.Point(1, 64);
+            this.button69.Name = "button69";
+            this.button69.Size = new System.Drawing.Size(110, 65);
+            this.button69.TabIndex = 44;
+            this.button69.Text = "四拉差雞軟骨";
+            this.button69.UseVisualStyleBackColor = true;
+            // 
+            // button22
+            // 
+            this.button22.Location = new System.Drawing.Point(319, 0);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(106, 65);
+            this.button22.TabIndex = 3;
+            this.button22.Text = "韓式炸雞";
+            this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
+            // 
+            // button21
+            // 
+            this.button21.Location = new System.Drawing.Point(214, 0);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(106, 65);
+            this.button21.TabIndex = 2;
+            this.button21.Text = "左宗棠炸雞";
+            this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
+            // 
+            // button20
+            // 
+            this.button20.Location = new System.Drawing.Point(109, 0);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(106, 65);
+            this.button20.TabIndex = 1;
+            this.button20.Text = "美式肉醬薯條";
+            this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
+            // 
+            // button19
+            // 
+            this.button19.Location = new System.Drawing.Point(0, 0);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(110, 65);
+            this.button19.TabIndex = 0;
+            this.button19.Text = "松露薯條";
+            this.button19.UseVisualStyleBackColor = true;
+            // 
+            // shot
+            // 
+            this.shot.Controls.Add(this.button81);
+            this.shot.Controls.Add(this.button82);
+            this.shot.Controls.Add(this.button83);
+            this.shot.Controls.Add(this.button84);
+            this.shot.Controls.Add(this.button27);
+            this.shot.Controls.Add(this.button28);
+            this.shot.Controls.Add(this.button29);
+            this.shot.Controls.Add(this.button30);
+            this.shot.Location = new System.Drawing.Point(4, 25);
+            this.shot.Name = "shot";
+            this.shot.Size = new System.Drawing.Size(427, 335);
+            this.shot.TabIndex = 3;
+            this.shot.Text = "SHOT";
+            this.shot.UseVisualStyleBackColor = true;
+            // 
             // button81
             // 
             this.button81.Location = new System.Drawing.Point(320, 65);
@@ -1042,266 +722,473 @@
             this.button84.Text = "等級I";
             this.button84.UseVisualStyleBackColor = true;
             // 
-            // menuStrip1
+            // button27
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1252, 24);
-            this.menuStrip1.TabIndex = 4;
-            this.menuStrip1.Text = "menuStrip1";
+            this.button27.Location = new System.Drawing.Point(320, 1);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(106, 65);
+            this.button27.TabIndex = 7;
+            this.button27.Text = "琴酒";
+            this.button27.UseVisualStyleBackColor = true;
             // 
-            // label5
+            // button28
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("新細明體", 12F);
-            this.label5.Location = new System.Drawing.Point(686, 24);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 24);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "數量";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.button28.Location = new System.Drawing.Point(215, 1);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(106, 65);
+            this.button28.TabIndex = 6;
+            this.button28.Text = "蘭姆酒";
+            this.button28.UseVisualStyleBackColor = true;
             // 
-            // label6
+            // button29
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("新細明體", 12F);
-            this.label6.Location = new System.Drawing.Point(545, 24);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(58, 24);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "單價";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            this.button29.Location = new System.Drawing.Point(110, 1);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(106, 65);
+            this.button29.TabIndex = 5;
+            this.button29.Text = "香醇威士忌";
+            this.button29.UseVisualStyleBackColor = true;
             // 
-            // label7
+            // button30
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("新細明體", 12F);
-            this.label7.Location = new System.Drawing.Point(57, 24);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(58, 24);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "項目";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.button30.Location = new System.Drawing.Point(1, 1);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(110, 65);
+            this.button30.TabIndex = 4;
+            this.button30.Text = "伏特加";
+            this.button30.UseVisualStyleBackColor = true;
             // 
-            // flowLayoutPanel2
+            // 套餐
             // 
-            this.flowLayoutPanel2.Controls.Add(this.label10);
-            this.flowLayoutPanel2.Controls.Add(this.label9);
-            this.flowLayoutPanel2.Controls.Add(this.label8);
-            this.flowLayoutPanel2.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(13, 172);
-            this.flowLayoutPanel2.MinimumSize = new System.Drawing.Size(1, 1);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(771, 36);
-            this.flowLayoutPanel2.TabIndex = 11;
-            this.flowLayoutPanel2.WrapContents = false;
+            this.套餐.Controls.Add(this.button23);
+            this.套餐.Controls.Add(this.button24);
+            this.套餐.Controls.Add(this.button25);
+            this.套餐.Controls.Add(this.button26);
+            this.套餐.Location = new System.Drawing.Point(4, 25);
+            this.套餐.Name = "套餐";
+            this.套餐.Size = new System.Drawing.Size(427, 335);
+            this.套餐.TabIndex = 4;
+            this.套餐.Text = "套餐";
+            this.套餐.UseVisualStyleBackColor = true;
             // 
-            // label8
+            // button23
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("新細明體", 12F);
-            this.label8.Location = new System.Drawing.Point(694, 5);
-            this.label8.Margin = new System.Windows.Forms.Padding(3, 5, 3, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(21, 24);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "1";
+            this.button23.Location = new System.Drawing.Point(319, 3);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(106, 65);
+            this.button23.TabIndex = 7;
+            this.button23.Text = "D套餐";
+            this.button23.UseVisualStyleBackColor = true;
             // 
-            // label9
+            // button24
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("新細明體", 12F);
-            this.label9.Location = new System.Drawing.Point(538, 5);
-            this.label9.Margin = new System.Windows.Forms.Padding(3, 5, 110, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(43, 24);
-            this.label9.TabIndex = 13;
-            this.label9.Text = "280";
+            this.button24.Location = new System.Drawing.Point(214, 3);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(106, 65);
+            this.button24.TabIndex = 6;
+            this.button24.Text = "C套餐";
+            this.button24.UseVisualStyleBackColor = true;
             // 
-            // label10
+            // button25
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("新細明體", 12F);
-            this.label10.Location = new System.Drawing.Point(30, 5);
-            this.label10.Margin = new System.Windows.Forms.Padding(30, 5, 375, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(130, 24);
-            this.label10.TabIndex = 12;
-            this.label10.Text = "左宗棠炸雞";
+            this.button25.Location = new System.Drawing.Point(109, 3);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(106, 65);
+            this.button25.TabIndex = 5;
+            this.button25.Text = "B套餐";
+            this.button25.UseVisualStyleBackColor = true;
             // 
-            // flowLayoutPanel3
+            // button26
             // 
-            this.flowLayoutPanel3.Controls.Add(this.label2);
-            this.flowLayoutPanel3.Controls.Add(this.label3);
-            this.flowLayoutPanel3.Controls.Add(this.label4);
-            this.flowLayoutPanel3.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(13, 133);
-            this.flowLayoutPanel3.MinimumSize = new System.Drawing.Size(1, 1);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(771, 36);
-            this.flowLayoutPanel3.TabIndex = 15;
-            this.flowLayoutPanel3.WrapContents = false;
+            this.button26.Location = new System.Drawing.Point(0, 3);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(110, 65);
+            this.button26.TabIndex = 4;
+            this.button26.Text = "A套餐";
+            this.button26.UseVisualStyleBackColor = true;
+            // 
+            // sure
+            // 
+            this.sure.Controls.Add(this.button14);
+            this.sure.Controls.Add(this.doubleZero);
+            this.sure.Controls.Add(this.Zero);
+            this.sure.Controls.Add(this.nine);
+            this.sure.Controls.Add(this.button10);
+            this.sure.Controls.Add(this.seven);
+            this.sure.Controls.Add(this.Six);
+            this.sure.Controls.Add(this.Five);
+            this.sure.Controls.Add(this.Four);
+            this.sure.Controls.Add(this.Three);
+            this.sure.Controls.Add(this.two);
+            this.sure.Controls.Add(this.button3);
+            this.sure.Location = new System.Drawing.Point(821, 397);
+            this.sure.Name = "sure";
+            this.sure.Size = new System.Drawing.Size(442, 190);
+            this.sure.TabIndex = 2;
+            this.sure.TabStop = false;
+            this.sure.Text = "計算機";
+            this.sure.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(322, 124);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(106, 59);
+            this.button14.TabIndex = 11;
+            this.button14.Text = "Enter";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // doubleZero
+            // 
+            this.doubleZero.Location = new System.Drawing.Point(220, 124);
+            this.doubleZero.Name = "doubleZero";
+            this.doubleZero.Size = new System.Drawing.Size(106, 59);
+            this.doubleZero.TabIndex = 10;
+            this.doubleZero.Text = "Clear";
+            this.doubleZero.UseVisualStyleBackColor = true;
+            this.doubleZero.Click += new System.EventHandler(this.doubleZero_Click);
+            // 
+            // Zero
+            // 
+            this.Zero.Location = new System.Drawing.Point(121, 124);
+            this.Zero.Name = "Zero";
+            this.Zero.Size = new System.Drawing.Size(106, 59);
+            this.Zero.TabIndex = 9;
+            this.Zero.Text = "0";
+            this.Zero.UseVisualStyleBackColor = true;
+            this.Zero.Click += new System.EventHandler(this.Zero_Click);
+            // 
+            // nine
+            // 
+            this.nine.Location = new System.Drawing.Point(20, 124);
+            this.nine.Name = "nine";
+            this.nine.Size = new System.Drawing.Size(106, 59);
+            this.nine.TabIndex = 8;
+            this.nine.Text = "9";
+            this.nine.UseVisualStyleBackColor = true;
+            this.nine.Click += new System.EventHandler(this.nine_Click);
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(322, 73);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(106, 59);
+            this.button10.TabIndex = 7;
+            this.button10.Text = "8";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // seven
+            // 
+            this.seven.Location = new System.Drawing.Point(220, 73);
+            this.seven.Name = "seven";
+            this.seven.Size = new System.Drawing.Size(106, 59);
+            this.seven.TabIndex = 6;
+            this.seven.Text = "7";
+            this.seven.UseVisualStyleBackColor = true;
+            this.seven.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // Six
+            // 
+            this.Six.Location = new System.Drawing.Point(121, 73);
+            this.Six.Name = "Six";
+            this.Six.Size = new System.Drawing.Size(106, 59);
+            this.Six.TabIndex = 5;
+            this.Six.Text = "6";
+            this.Six.UseVisualStyleBackColor = true;
+            this.Six.Click += new System.EventHandler(this.Six_Click);
+            // 
+            // Five
+            // 
+            this.Five.Location = new System.Drawing.Point(20, 73);
+            this.Five.Name = "Five";
+            this.Five.Size = new System.Drawing.Size(106, 59);
+            this.Five.TabIndex = 4;
+            this.Five.Text = "5";
+            this.Five.UseVisualStyleBackColor = true;
+            this.Five.Click += new System.EventHandler(this.Five_Click);
+            // 
+            // Four
+            // 
+            this.Four.Location = new System.Drawing.Point(322, 17);
+            this.Four.Name = "Four";
+            this.Four.Size = new System.Drawing.Size(106, 59);
+            this.Four.TabIndex = 3;
+            this.Four.Text = "4";
+            this.Four.UseVisualStyleBackColor = true;
+            this.Four.Click += new System.EventHandler(this.Four_Click);
+            // 
+            // Three
+            // 
+            this.Three.Location = new System.Drawing.Point(220, 17);
+            this.Three.Name = "Three";
+            this.Three.Size = new System.Drawing.Size(106, 59);
+            this.Three.TabIndex = 2;
+            this.Three.Text = "3";
+            this.Three.UseVisualStyleBackColor = true;
+            this.Three.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // two
+            // 
+            this.two.Location = new System.Drawing.Point(121, 17);
+            this.two.Name = "two";
+            this.two.Size = new System.Drawing.Size(106, 59);
+            this.two.TabIndex = 1;
+            this.two.Text = "2";
+            this.two.UseVisualStyleBackColor = true;
+            this.two.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(20, 17);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(106, 59);
+            this.button3.TabIndex = 0;
+            this.button3.Text = "1";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // tabControl2
+            // 
+            this.tabControl2.Controls.Add(this.orderTable);
+            this.tabControl2.Controls.Add(this.TransactionDetailsTable);
+            this.tabControl2.Location = new System.Drawing.Point(10, 12);
+            this.tabControl2.Name = "tabControl2";
+            this.tabControl2.SelectedIndex = 0;
+            this.tabControl2.Size = new System.Drawing.Size(800, 598);
+            this.tabControl2.TabIndex = 5;
+            // 
+            // orderTable
+            // 
+            this.orderTable.Controls.Add(this.dataGridView1);
+            this.orderTable.Location = new System.Drawing.Point(4, 25);
+            this.orderTable.Name = "orderTable";
+            this.orderTable.Padding = new System.Windows.Forms.Padding(3);
+            this.orderTable.Size = new System.Drawing.Size(792, 569);
+            this.orderTable.TabIndex = 0;
+            this.orderTable.Text = "點餐";
+            this.orderTable.UseVisualStyleBackColor = true;
+            this.orderTable.Click += new System.EventHandler(this.orderTable_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.id,
+            this.productName,
+            this.price,
+            this.sum,
+            this.money,
+            this.Remark});
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 27;
+            this.dataGridView1.Size = new System.Drawing.Size(808, 569);
+            this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // id
+            // 
+            this.id.HeaderText = "編號";
+            this.id.MinimumWidth = 6;
+            this.id.Name = "id";
+            // 
+            // productName
+            // 
+            this.productName.HeaderText = "產品名稱";
+            this.productName.MinimumWidth = 6;
+            this.productName.Name = "productName";
+            // 
+            // price
+            // 
+            this.price.HeaderText = "單價";
+            this.price.MinimumWidth = 6;
+            this.price.Name = "price";
+            // 
+            // sum
+            // 
+            this.sum.HeaderText = "數量";
+            this.sum.MinimumWidth = 6;
+            this.sum.Name = "sum";
+            // 
+            // money
+            // 
+            this.money.HeaderText = "金額";
+            this.money.MinimumWidth = 6;
+            this.money.Name = "money";
+            // 
+            // Remark
+            // 
+            this.Remark.HeaderText = "備註";
+            this.Remark.MinimumWidth = 6;
+            this.Remark.Name = "Remark";
+            // 
+            // TransactionDetailsTable
+            // 
+            this.TransactionDetailsTable.Location = new System.Drawing.Point(4, 25);
+            this.TransactionDetailsTable.Name = "TransactionDetailsTable";
+            this.TransactionDetailsTable.Padding = new System.Windows.Forms.Padding(3);
+            this.TransactionDetailsTable.Size = new System.Drawing.Size(792, 569);
+            this.TransactionDetailsTable.TabIndex = 1;
+            this.TransactionDetailsTable.Text = "交易明細";
+            this.TransactionDetailsTable.UseVisualStyleBackColor = true;
+            // 
+            // Checkout
+            // 
+            this.Checkout.Location = new System.Drawing.Point(12, 616);
+            this.Checkout.Name = "Checkout";
+            this.Checkout.Size = new System.Drawing.Size(214, 58);
+            this.Checkout.TabIndex = 8;
+            this.Checkout.Text = "結帳";
+            this.Checkout.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(252, 616);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(214, 58);
+            this.button8.TabIndex = 9;
+            this.button8.Text = "匯出報表";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // idBox
+            // 
+            this.idBox.Location = new System.Drawing.Point(893, 604);
+            this.idBox.Name = "idBox";
+            this.idBox.Size = new System.Drawing.Size(70, 25);
+            this.idBox.TabIndex = 10;
+            // 
+            // nameBox
+            // 
+            this.nameBox.Location = new System.Drawing.Point(1060, 607);
+            this.nameBox.Name = "nameBox";
+            this.nameBox.Size = new System.Drawing.Size(139, 25);
+            this.nameBox.TabIndex = 11;
+            // 
+            // priceBox
+            // 
+            this.priceBox.Location = new System.Drawing.Point(893, 643);
+            this.priceBox.Name = "priceBox";
+            this.priceBox.Size = new System.Drawing.Size(70, 25);
+            this.priceBox.TabIndex = 12;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("新細明體", 12F);
-            this.label2.Location = new System.Drawing.Point(30, 5);
-            this.label2.Margin = new System.Windows.Forms.Padding(30, 5, 375, 0);
+            this.label2.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label2.Location = new System.Drawing.Point(828, 604);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(130, 24);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "微粒炸醬麵";
+            this.label2.Size = new System.Drawing.Size(56, 22);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "編號 : ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("新細明體", 12F);
-            this.label3.Location = new System.Drawing.Point(538, 5);
-            this.label3.Margin = new System.Windows.Forms.Padding(3, 5, 110, 0);
+            this.label3.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label3.Location = new System.Drawing.Point(974, 607);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 24);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "280";
+            this.label3.Size = new System.Drawing.Size(90, 22);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "產品名稱 : ";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("新細明體", 12F);
-            this.label4.Location = new System.Drawing.Point(694, 5);
-            this.label4.Margin = new System.Windows.Forms.Padding(3, 5, 3, 0);
+            this.label4.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label4.Location = new System.Drawing.Point(828, 643);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(21, 24);
-            this.label4.TabIndex = 14;
-            this.label4.Text = "1";
+            this.label4.Size = new System.Drawing.Size(56, 22);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "單價 : ";
             // 
-            // flowLayoutPanel4
+            // label5
             // 
-            this.flowLayoutPanel4.Controls.Add(this.label11);
-            this.flowLayoutPanel4.Controls.Add(this.label12);
-            this.flowLayoutPanel4.Controls.Add(this.label13);
-            this.flowLayoutPanel4.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(13, 94);
-            this.flowLayoutPanel4.MinimumSize = new System.Drawing.Size(1, 1);
-            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(771, 36);
-            this.flowLayoutPanel4.TabIndex = 17;
-            this.flowLayoutPanel4.WrapContents = false;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label5.Location = new System.Drawing.Point(974, 643);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(56, 22);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "數量 : ";
             // 
-            // label11
+            // quantityBox
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("新細明體", 12F);
-            this.label11.Location = new System.Drawing.Point(30, 5);
-            this.label11.Margin = new System.Windows.Forms.Padding(30, 5, 400, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(106, 24);
-            this.label11.TabIndex = 12;
-            this.label11.Text = "三天三夜";
+            this.quantityBox.Location = new System.Drawing.Point(1036, 643);
+            this.quantityBox.Name = "quantityBox";
+            this.quantityBox.Size = new System.Drawing.Size(70, 25);
+            this.quantityBox.TabIndex = 17;
             // 
-            // label12
+            // totalPriceBox
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("新細明體", 12F);
-            this.label12.Location = new System.Drawing.Point(539, 5);
-            this.label12.Margin = new System.Windows.Forms.Padding(3, 5, 110, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(43, 24);
-            this.label12.TabIndex = 13;
-            this.label12.Text = "280";
+            this.totalPriceBox.Location = new System.Drawing.Point(1175, 645);
+            this.totalPriceBox.Name = "totalPriceBox";
+            this.totalPriceBox.Size = new System.Drawing.Size(70, 25);
+            this.totalPriceBox.TabIndex = 19;
             // 
-            // label13
+            // label6
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("新細明體", 12F);
-            this.label13.Location = new System.Drawing.Point(695, 5);
-            this.label13.Margin = new System.Windows.Forms.Padding(3, 5, 3, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(21, 24);
-            this.label13.TabIndex = 14;
-            this.label13.Text = "1";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label6.Location = new System.Drawing.Point(1113, 645);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(56, 22);
+            this.label6.TabIndex = 18;
+            this.label6.Text = "金額 : ";
             // 
-            // label14
+            // label7
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("新細明體", 12F);
-            this.label14.Location = new System.Drawing.Point(30, 5);
-            this.label14.Margin = new System.Windows.Forms.Padding(30, 5, 400, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(106, 24);
-            this.label14.TabIndex = 12;
-            this.label14.Text = "不醉不歸";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label7.Location = new System.Drawing.Point(828, 682);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(56, 22);
+            this.label7.TabIndex = 20;
+            this.label7.Text = "備註 : ";
             // 
-            // flowLayoutPanel5
+            // remarkBox
             // 
-            this.flowLayoutPanel5.Controls.Add(this.label14);
-            this.flowLayoutPanel5.Controls.Add(this.label15);
-            this.flowLayoutPanel5.Controls.Add(this.label16);
-            this.flowLayoutPanel5.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.flowLayoutPanel5.Location = new System.Drawing.Point(13, 55);
-            this.flowLayoutPanel5.MinimumSize = new System.Drawing.Size(1, 1);
-            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
-            this.flowLayoutPanel5.Size = new System.Drawing.Size(771, 36);
-            this.flowLayoutPanel5.TabIndex = 16;
-            this.flowLayoutPanel5.WrapContents = false;
+            this.remarkBox.Location = new System.Drawing.Point(893, 679);
+            this.remarkBox.Name = "remarkBox";
+            this.remarkBox.Size = new System.Drawing.Size(352, 25);
+            this.remarkBox.TabIndex = 21;
             // 
-            // label15
+            // Report
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("新細明體", 12F);
-            this.label15.Location = new System.Drawing.Point(539, 5);
-            this.label15.Margin = new System.Windows.Forms.Padding(3, 5, 110, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(43, 24);
-            this.label15.TabIndex = 13;
-            this.label15.Text = "280";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("新細明體", 12F);
-            this.label16.Location = new System.Drawing.Point(695, 5);
-            this.label16.Margin = new System.Windows.Forms.Padding(3, 5, 3, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(21, 24);
-            this.label16.TabIndex = 14;
-            this.label16.Text = "1";
-            // 
-            // Form2
-            // 
-            this.ClientSize = new System.Drawing.Size(1252, 677);
-            this.Controls.Add(this.flowLayoutPanel2);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.flowLayoutPanel4);
-            this.Controls.Add(this.flowLayoutPanel5);
-            this.Controls.Add(this.flowLayoutPanel3);
+            this.ClientSize = new System.Drawing.Size(1254, 716);
+            this.Controls.Add(this.remarkBox);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.totalPriceBox);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.quantityBox);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.priceBox);
+            this.Controls.Add(this.nameBox);
+            this.Controls.Add(this.idBox);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.Checkout);
+            this.Controls.Add(this.tabControl2);
+            this.Controls.Add(this.sure);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.listView1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form2";
+            this.Name = "Report";
+            this.Text = " ";
+            this.Load += new System.EventHandler(this.Report_Load);
             this.tabControl1.ResumeLayout(false);
             this.酒精.ResumeLayout(false);
             this.主餐.ResumeLayout(false);
             this.炸物.ResumeLayout(false);
             this.shot.ResumeLayout(false);
             this.套餐.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.flowLayoutPanel2.ResumeLayout(false);
-            this.flowLayoutPanel2.PerformLayout();
-            this.flowLayoutPanel3.ResumeLayout(false);
-            this.flowLayoutPanel3.PerformLayout();
-            this.flowLayoutPanel4.ResumeLayout(false);
-            this.flowLayoutPanel4.PerformLayout();
-            this.flowLayoutPanel5.ResumeLayout(false);
-            this.flowLayoutPanel5.PerformLayout();
+            this.sure.ResumeLayout(false);
+            this.tabControl2.ResumeLayout(false);
+            this.orderTable.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1313,27 +1200,22 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage 酒精;
         private System.Windows.Forms.TabPage 主餐;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.GroupBox sure;
+        private System.Windows.Forms.Button nine;
         private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button seven;
+        private System.Windows.Forms.Button Six;
+        private System.Windows.Forms.Button Five;
+        private System.Windows.Forms.Button Four;
+        private System.Windows.Forms.Button Three;
+        private System.Windows.Forms.Button two;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button doubleZero;
+        private System.Windows.Forms.Button Zero;
         private System.Windows.Forms.TabPage 炸物;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button19;
@@ -1361,14 +1243,10 @@
         private System.Windows.Forms.Button button39;
         private System.Windows.Forms.Button button40;
         private System.Windows.Forms.Button button41;
-        private System.Windows.Forms.Button button54;
         private System.Windows.Forms.Button button55;
-        private System.Windows.Forms.Button button56;
-        private System.Windows.Forms.Button button57;
         private System.Windows.Forms.Button button46;
         private System.Windows.Forms.Button button47;
         private System.Windows.Forms.Button button48;
-        private System.Windows.Forms.Button button49;
         private System.Windows.Forms.Button button50;
         private System.Windows.Forms.Button button51;
         private System.Windows.Forms.Button button52;
@@ -1400,26 +1278,29 @@
         private System.Windows.Forms.Button button82;
         private System.Windows.Forms.Button button83;
         private System.Windows.Forms.Button button84;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
+        private System.Windows.Forms.TabControl tabControl2;
+        private System.Windows.Forms.TabPage orderTable;
+        private System.Windows.Forms.TabPage TransactionDetailsTable;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn productName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn price;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sum;
+        private System.Windows.Forms.DataGridViewTextBoxColumn money;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Remark;
+        private System.Windows.Forms.Button Checkout;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.TextBox idBox;
+        private System.Windows.Forms.TextBox nameBox;
+        private System.Windows.Forms.TextBox priceBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel5;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox quantityBox;
+        private System.Windows.Forms.TextBox totalPriceBox;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox remarkBox;
     }
 }

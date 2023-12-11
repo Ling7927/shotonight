@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace login
 {
@@ -15,26 +16,48 @@ namespace login
         public Form1()
         {
             InitializeComponent();
-            // 打開程式後，跳出Form2，確認帳號密碼
-            Form2 form2;
-            form2 = new Form2();
-            form2.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void powdText_TextChanged(object sender, EventArgs e)
         {
-            Form2 form2;
-            form2 = new Form2();
-            // 打開Form 2，不會鎖定Form 1
-            form2.Show();
+
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void passText_TextChanged(object sender, EventArgs e)
         {
-            Form2 form2;
-            form2 = new Form2();
-            // 打開Form 2，會鎖定Form 1
-            form2.ShowDialog();
+
+        }
+
+        private void Login_Click(object sender, EventArgs e)
+        {
+            //MessageBox.Show("登入");
+            String powd = "1";
+            String password = "1";
+
+            if(String.Equals(powd, powdText.Text))
+            {
+                if (String.Equals(password, passText.Text))
+                {
+                    this.Hide();
+                    Report form2 = new Report();
+                    form2.Show();
+
+                }
+                else
+                {
+                    MessageBox.Show("密碼錯誤");
+                }
+            }
+            else
+            {
+                MessageBox.Show("帳號不存在");
+            }
+
+        }
+
+        private void register_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
