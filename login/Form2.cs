@@ -71,9 +71,14 @@ namespace login
         //結帳
         void checkOut()
         {
-            if (dataGridView1.Rows.Count > 0)
+            if (dataGridView1.Rows.Count != 1)
             {
-                DateTime date = DateTime.Now; // 現在時間
+
+                Random random = new Random();
+                int randomNumber = random.Next(); // 訂單編號
+                int totalMoney = 0; //交易總金額
+                DateTime date = DateTime.Now; // 訂單時間
+
                 for (int i=0;i< dataGridView1.Rows.Count-1; i++)
                 {
 
@@ -85,11 +90,21 @@ namespace login
                     int totalPrice = Convert.ToInt32(row.Cells["totalPrice"].Value);
                     string remarks = row.Cells["Remark"].Value.ToString();
 
+                    totalMoney += totalPrice;
+
                     //MessageBox.Show("點餐成功");
                     //MessageBox.Show("編號 : " + foodId + " 產品名稱 : " + foodName + " 單價 : " + price + " 數量 : " + quantity
                     //    + " 金額 : " + totalPrice + " 備註" + remarks);
 
+                    //MessageBox.Show("編號 : " + foodId + " 產品名稱 : " + foodName + " 單價 : " + price + " 數量 : " + quantity
+                    //    + " 金額 : " + totalPrice + " 備註" + remarks);
                 }
+
+                MessageBox.Show("訂單編號 : " + randomNumber + " 交易總金額 : " + totalMoney + " 訂單時間 : " + date);
+
+                //清空資料
+                dataGridView1.Rows.Clear();
+
             }
             else
             {
