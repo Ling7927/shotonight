@@ -194,6 +194,7 @@
             this.button55.TabIndex = 26;
             this.button55.Text = "MIX威夷";
             this.button55.UseVisualStyleBackColor = true;
+            this.button55.Click += new System.EventHandler(this.button55_Click);
             // 
             // button46
             // 
@@ -203,6 +204,7 @@
             this.button46.TabIndex = 23;
             this.button46.Text = "月光寶盒";
             this.button46.UseVisualStyleBackColor = true;
+            this.button46.Click += new System.EventHandler(this.button46_Click);
             // 
             // button47
             // 
@@ -210,8 +212,9 @@
             this.button47.Name = "button47";
             this.button47.Size = new System.Drawing.Size(106, 65);
             this.button47.TabIndex = 22;
-            this.button47.Text = "結帳";
+            this.button47.Text = "莫吉托";
             this.button47.UseVisualStyleBackColor = true;
+            this.button47.Click += new System.EventHandler(this.button47_Click);
             // 
             // button48
             // 
@@ -221,6 +224,7 @@
             this.button48.TabIndex = 21;
             this.button48.Text = "碧落大地";
             this.button48.UseVisualStyleBackColor = true;
+            this.button48.Click += new System.EventHandler(this.button48_Click);
             // 
             // button50
             // 
@@ -230,6 +234,7 @@
             this.button50.TabIndex = 19;
             this.button50.Text = "史藍姆";
             this.button50.UseVisualStyleBackColor = true;
+            this.button50.Click += new System.EventHandler(this.button50_Click);
             // 
             // button51
             // 
@@ -239,6 +244,7 @@
             this.button51.TabIndex = 18;
             this.button51.Text = "彩虹軟糖";
             this.button51.UseVisualStyleBackColor = true;
+            this.button51.Click += new System.EventHandler(this.button51_Click);
             // 
             // button52
             // 
@@ -248,6 +254,7 @@
             this.button52.TabIndex = 17;
             this.button52.Text = "紅色炸彈";
             this.button52.UseVisualStyleBackColor = true;
+            this.button52.Click += new System.EventHandler(this.button52_Click);
             // 
             // button53
             // 
@@ -257,6 +264,7 @@
             this.button53.TabIndex = 16;
             this.button53.Text = "粉紅泡泡";
             this.button53.UseVisualStyleBackColor = true;
+            this.button53.Click += new System.EventHandler(this.button53_Click);
             // 
             // button42
             // 
@@ -266,6 +274,7 @@
             this.button42.TabIndex = 15;
             this.button42.Text = "綠色的天空";
             this.button42.UseVisualStyleBackColor = true;
+            this.button42.Click += new System.EventHandler(this.button42_Click);
             // 
             // button43
             // 
@@ -275,6 +284,7 @@
             this.button43.TabIndex = 14;
             this.button43.Text = "黃色的大樹";
             this.button43.UseVisualStyleBackColor = true;
+            this.button43.Click += new System.EventHandler(this.button43_Click);
             // 
             // button44
             // 
@@ -284,6 +294,7 @@
             this.button44.TabIndex = 13;
             this.button44.Text = "白色的大海";
             this.button44.UseVisualStyleBackColor = true;
+            this.button44.Click += new System.EventHandler(this.button44_Click);
             // 
             // button45
             // 
@@ -293,6 +304,7 @@
             this.button45.TabIndex = 12;
             this.button45.Text = "黑色漂流瓶";
             this.button45.UseVisualStyleBackColor = true;
+            this.button45.Click += new System.EventHandler(this.button45_Click);
             // 
             // button38
             // 
@@ -302,6 +314,7 @@
             this.button38.TabIndex = 11;
             this.button38.Text = "口以麻";
             this.button38.UseVisualStyleBackColor = true;
+            this.button38.Click += new System.EventHandler(this.button38_Click);
             // 
             // button39
             // 
@@ -406,6 +419,7 @@
             this.button72.TabIndex = 33;
             this.button72.Text = "阿罵的炒飯";
             this.button72.UseVisualStyleBackColor = true;
+            this.button72.Click += new System.EventHandler(this.button72_Click);
             // 
             // button73
             // 
@@ -415,6 +429,7 @@
             this.button73.TabIndex = 32;
             this.button73.Text = "炒海瓜子直麵";
             this.button73.UseVisualStyleBackColor = true;
+            this.button73.Click += new System.EventHandler(this.button73_Click);
             // 
             // button74
             // 
@@ -424,6 +439,7 @@
             this.button74.TabIndex = 31;
             this.button74.Text = "什錦炒麵";
             this.button74.UseVisualStyleBackColor = true;
+            this.button74.Click += new System.EventHandler(this.button74_Click);
             // 
             // button75
             // 
@@ -433,6 +449,7 @@
             this.button75.TabIndex = 30;
             this.button75.Text = "黑金滷肉飯";
             this.button75.UseVisualStyleBackColor = true;
+            this.button75.Click += new System.EventHandler(this.button75_Click);
             // 
             // button76
             // 
@@ -442,6 +459,7 @@
             this.button76.TabIndex = 29;
             this.button76.Text = "微粒炸醬麵";
             this.button76.UseVisualStyleBackColor = true;
+            this.button76.Click += new System.EventHandler(this.button76_Click);
             // 
             // button77
             // 
@@ -451,6 +469,7 @@
             this.button77.TabIndex = 28;
             this.button77.Text = "椒麻乾麵";
             this.button77.UseVisualStyleBackColor = true;
+            this.button77.Click += new System.EventHandler(this.button77_Click);
             // 
             // button58
             // 
@@ -459,8 +478,9 @@
             this.button58.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.button58.Size = new System.Drawing.Size(106, 65);
             this.button58.TabIndex = 11;
-            this.button58.Text = "羅勒雞肉青醬義大利麵";
+            this.button58.Text = "羅勒雞肉青醬寬麵";
             this.button58.UseVisualStyleBackColor = true;
+            this.button58.Click += new System.EventHandler(this.button58_Click);
             // 
             // button59
             // 
@@ -468,8 +488,9 @@
             this.button59.Name = "button59";
             this.button59.Size = new System.Drawing.Size(106, 65);
             this.button59.TabIndex = 10;
-            this.button59.Text = "經典肉醬義大利麵";
+            this.button59.Text = "經典肉醬寬麵";
             this.button59.UseVisualStyleBackColor = true;
+            this.button59.Click += new System.EventHandler(this.button59_Click);
             // 
             // button60
             // 
@@ -479,6 +500,7 @@
             this.button60.TabIndex = 9;
             this.button60.Text = "奶油起司寬麵";
             this.button60.UseVisualStyleBackColor = true;
+            this.button60.Click += new System.EventHandler(this.button60_Click);
             // 
             // button61
             // 
@@ -488,6 +510,7 @@
             this.button61.TabIndex = 8;
             this.button61.Text = "白酒蛤蜊義大利麵";
             this.button61.UseVisualStyleBackColor = true;
+            this.button61.Click += new System.EventHandler(this.button61_Click);
             // 
             // button31
             // 
@@ -498,6 +521,7 @@
             this.button31.TabIndex = 7;
             this.button31.Text = "羅勒雞肉青醬義大利麵";
             this.button31.UseVisualStyleBackColor = true;
+            this.button31.Click += new System.EventHandler(this.button31_Click);
             // 
             // button32
             // 
@@ -507,6 +531,7 @@
             this.button32.TabIndex = 6;
             this.button32.Text = "經典肉醬義大利麵";
             this.button32.UseVisualStyleBackColor = true;
+            this.button32.Click += new System.EventHandler(this.button32_Click);
             // 
             // button33
             // 
@@ -516,6 +541,7 @@
             this.button33.TabIndex = 5;
             this.button33.Text = "奶油起司寬麵";
             this.button33.UseVisualStyleBackColor = true;
+            this.button33.Click += new System.EventHandler(this.button33_Click);
             // 
             // button34
             // 
@@ -525,6 +551,7 @@
             this.button34.TabIndex = 4;
             this.button34.Text = "白酒蛤蜊義大利麵";
             this.button34.UseVisualStyleBackColor = true;
+            this.button34.Click += new System.EventHandler(this.button34_Click);
             // 
             // 炸物
             // 
@@ -566,6 +593,7 @@
             this.button70.TabIndex = 51;
             this.button70.Text = "涼拌檸檬蝦";
             this.button70.UseVisualStyleBackColor = true;
+            this.button70.Click += new System.EventHandler(this.button70_Click);
             // 
             // button71
             // 
@@ -575,6 +603,7 @@
             this.button71.TabIndex = 50;
             this.button71.Text = "日本廣島生蠔";
             this.button71.UseVisualStyleBackColor = true;
+            this.button71.Click += new System.EventHandler(this.button71_Click);
             // 
             // button78
             // 
@@ -584,6 +613,7 @@
             this.button78.TabIndex = 49;
             this.button78.Text = "油醋大蔥鴨";
             this.button78.UseVisualStyleBackColor = true;
+            this.button78.Click += new System.EventHandler(this.button78_Click);
             // 
             // button79
             // 
@@ -593,6 +623,7 @@
             this.button79.TabIndex = 48;
             this.button79.Text = "奈奈桂心豬";
             this.button79.UseVisualStyleBackColor = true;
+            this.button79.Click += new System.EventHandler(this.button79_Click);
             // 
             // button66
             // 
@@ -602,6 +633,7 @@
             this.button66.TabIndex = 47;
             this.button66.Text = "炸物拼盤";
             this.button66.UseVisualStyleBackColor = true;
+            this.button66.Click += new System.EventHandler(this.button66_Click);
             // 
             // button67
             // 
@@ -611,6 +643,7 @@
             this.button67.TabIndex = 46;
             this.button67.Text = "南方一級棒棒腿";
             this.button67.UseVisualStyleBackColor = true;
+            this.button67.Click += new System.EventHandler(this.button67_Click);
             // 
             // button68
             // 
@@ -620,6 +653,7 @@
             this.button68.TabIndex = 45;
             this.button68.Text = "避風塘牛肉塊";
             this.button68.UseVisualStyleBackColor = true;
+            this.button68.Click += new System.EventHandler(this.button68_Click);
             // 
             // button69
             // 
@@ -629,6 +663,7 @@
             this.button69.TabIndex = 44;
             this.button69.Text = "四拉差雞軟骨";
             this.button69.UseVisualStyleBackColor = true;
+            this.button69.Click += new System.EventHandler(this.button69_Click);
             // 
             // button22
             // 
@@ -668,6 +703,7 @@
             this.button19.TabIndex = 0;
             this.button19.Text = "松露薯條";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // shot
             // 
@@ -694,6 +730,7 @@
             this.button81.TabIndex = 23;
             this.button81.Text = "一杯倒";
             this.button81.UseVisualStyleBackColor = true;
+            this.button81.Click += new System.EventHandler(this.button81_Click);
             // 
             // button82
             // 
@@ -703,6 +740,7 @@
             this.button82.TabIndex = 22;
             this.button82.Text = "等級III";
             this.button82.UseVisualStyleBackColor = true;
+            this.button82.Click += new System.EventHandler(this.button82_Click);
             // 
             // button83
             // 
@@ -712,6 +750,7 @@
             this.button83.TabIndex = 21;
             this.button83.Text = "等級II";
             this.button83.UseVisualStyleBackColor = true;
+            this.button83.Click += new System.EventHandler(this.button83_Click);
             // 
             // button84
             // 
@@ -721,6 +760,7 @@
             this.button84.TabIndex = 20;
             this.button84.Text = "等級I";
             this.button84.UseVisualStyleBackColor = true;
+            this.button84.Click += new System.EventHandler(this.button84_Click);
             // 
             // button27
             // 
@@ -730,6 +770,7 @@
             this.button27.TabIndex = 7;
             this.button27.Text = "琴酒";
             this.button27.UseVisualStyleBackColor = true;
+            this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
             // button28
             // 
@@ -739,6 +780,7 @@
             this.button28.TabIndex = 6;
             this.button28.Text = "蘭姆酒";
             this.button28.UseVisualStyleBackColor = true;
+            this.button28.Click += new System.EventHandler(this.button28_Click);
             // 
             // button29
             // 
@@ -748,6 +790,7 @@
             this.button29.TabIndex = 5;
             this.button29.Text = "香醇威士忌";
             this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.button29_Click);
             // 
             // button30
             // 
@@ -757,6 +800,7 @@
             this.button30.TabIndex = 4;
             this.button30.Text = "伏特加";
             this.button30.UseVisualStyleBackColor = true;
+            this.button30.Click += new System.EventHandler(this.button30_Click);
             // 
             // 套餐
             // 
@@ -779,6 +823,7 @@
             this.button23.TabIndex = 7;
             this.button23.Text = "D套餐";
             this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // button24
             // 
@@ -788,6 +833,7 @@
             this.button24.TabIndex = 6;
             this.button24.Text = "C套餐";
             this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
             // button25
             // 
@@ -797,6 +843,7 @@
             this.button25.TabIndex = 5;
             this.button25.Text = "B套餐";
             this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
             // 
             // button26
             // 
@@ -806,6 +853,7 @@
             this.button26.TabIndex = 4;
             this.button26.Text = "A套餐";
             this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
             // sure
             // 
