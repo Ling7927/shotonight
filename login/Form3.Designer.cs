@@ -111,7 +111,8 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.orderDataTable);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "訂單明細";
+            this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.orderDataTable)).EndInit();
             this.ResumeLayout(false);
 
