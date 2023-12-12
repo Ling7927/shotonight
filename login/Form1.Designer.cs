@@ -42,7 +42,7 @@
             this.passText.Font = new System.Drawing.Font("微軟正黑體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.passText.Location = new System.Drawing.Point(120, 209);
             this.passText.Name = "passText";
-            this.passText.Size = new System.Drawing.Size(390, 27);
+            this.passText.Size = new System.Drawing.Size(390, 23);
             this.passText.TabIndex = 3;
             this.passText.TextChanged += new System.EventHandler(this.passText_TextChanged);
             // 
@@ -52,7 +52,7 @@
             this.label1.Font = new System.Drawing.Font("微軟正黑體", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label1.Location = new System.Drawing.Point(225, 53);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(198, 43);
+            this.label1.Size = new System.Drawing.Size(156, 34);
             this.label1.TabIndex = 4;
             this.label1.Text = "Shotonight";
             // 
@@ -82,7 +82,7 @@
             this.powd.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.powd.Location = new System.Drawing.Point(47, 138);
             this.powd.Name = "powd";
-            this.powd.Size = new System.Drawing.Size(67, 25);
+            this.powd.Size = new System.Drawing.Size(53, 20);
             this.powd.TabIndex = 7;
             this.powd.Text = "帳號 : ";
             // 
@@ -92,7 +92,7 @@
             this.pass.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.pass.Location = new System.Drawing.Point(47, 209);
             this.pass.Name = "pass";
-            this.pass.Size = new System.Drawing.Size(67, 25);
+            this.pass.Size = new System.Drawing.Size(53, 20);
             this.pass.TabIndex = 8;
             this.pass.Text = "密碼 : ";
             // 
@@ -101,7 +101,7 @@
             this.powdText.Font = new System.Drawing.Font("微軟正黑體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.powdText.Location = new System.Drawing.Point(120, 140);
             this.powdText.Name = "powdText";
-            this.powdText.Size = new System.Drawing.Size(390, 27);
+            this.powdText.Size = new System.Drawing.Size(390, 23);
             this.powdText.TabIndex = 9;
             this.powdText.TextChanged += new System.EventHandler(this.powdText_TextChanged);
             // 
@@ -118,7 +118,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.passText);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "登入";
             this.ResumeLayout(false);
             this.PerformLayout();
 
