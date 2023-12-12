@@ -37,42 +37,101 @@ namespace login
             DBConfig.sqlite_connect.Open();// Open
 
         }
-        //private void Show_DB()
-        //{
-        //    this.dataGridView1.Rows.Clear();
+        //訂單明細
+        public class DataItem
+        {
+            public string Id { get; set; }
+            public string Name { get; set; }
+            public int Price { get; set; }
+            public int Amount { get; set; }
+            public int TotalPrice { get; set; }
+            public string Remark { get; set; }
+            public string Oid { get; set; }
+        }
 
-        //    string sql = @"SELECT * from transform;";
-        //    DBConfig.sqlite_cmd = new SQLiteCommand(sql, DBConfig.sqlite_connect);
-        //    DBConfig.sqlite_datareader = DBConfig.sqlite_cmd.ExecuteReader();
+        public void showTransForm(String Oid)
+        {
+            string sql = @"SELECT * FROM transform WHERE Oid = '" + Oid + "'";
+            DBConfig.sqlite_cmd = new SQLiteCommand(sql, DBConfig.sqlite_connect);
+            DBConfig.sqlite_datareader = DBConfig.sqlite_cmd.ExecuteReader();
 
-        //    if (DBConfig.sqlite_datareader.HasRows)
-        //    {
-        //        while (DBConfig.sqlite_datareader.Read()) //read every data
-        //        {
-        //            int _id = Convert.ToInt32(DBConfig.sqlite_datareader["id"]);
-        //            int _name = Convert.ToInt32(DBConfig.sqlite_datareader["name"]);
-        //            double _price = Convert.ToDouble(DBConfig.sqlite_datareader["price"]);
-        //            double _amount = Convert.ToDouble(DBConfig.sqlite_datareader["amount"]);
-        //            double _total_price = _price * _amount;
-        //            int _remark = Convert.ToInt32(DBConfig.sqlite_datareader["remark"]);
-        //            double _Oid =
+            List<DataItem> dataList = new List<DataItem>();
 
-        //            string _date_str = DateTimeOffset.FromUnixTimeSeconds(_date).ToString("yy-MM-dd hh:mm:ss");
+            if (DBConfig.sqlite_datareader.HasRows)
+            {
+                while (DBConfig.sqlite_datareader.Read()) //read every data
+                {
+                    String id = DBConfig.sqlite_datareader["id"].ToString();
+                    String name = DBConfig.sqlite_datareader["name"].ToString();
+                    int price = Convert.ToInt32(DBConfig.sqlite_datareader["price"]);
+                    int amount = Convert.ToInt32(DBConfig.sqlite_datareader["amount"]);
+                    int total_price = price * amount;
+                    String remark = DBConfig.sqlite_datareader["remark"].ToString();
+                    String _Oid = DBConfig.sqlite_datareader["Oid"].ToString();
 
-        //            string _type_str = "";
-        //            if (_type == 0)
-        //            { _type_str = "進貨"; }
-        //            else { _type_str = "出貨"; }
+                    DataItem item = new DataItem
+                    {
+                        Id = id,
+                        Name = name,
+                        Price = price,
+                        Amount = amount,
+                        TotalPrice = total_price,
+                        Remark = remark,
+                        Oid = _Oid
+                    };
 
-        //            index = _serial;
-        //            DataGridViewRowCollection rows = dataGridView1.Rows;
-        //            rows.Add(new Object[] { index, _date_str, _type_str, _name, _price, _number
-        //                                       , _total });
-        //        }
-        //        DBConfig.sqlite_datareader.Close();
-        //    }
-        //}
-        
+                        dataList.Add(item);
+                }
+                DBConfig.sqlite_datareader.Close();
+            }
+
+            Form3 form3 = new Form3();
+            form3.DisplayData(dataList);
+            form3.Show();
+        }
+
+        //訂單資料庫
+        public void showTransOrder()
+        {
+            this.transOrderTable.Rows.Clear();
+
+            string sql = @"SELECT * from transOrder;";
+            DBConfig.sqlite_cmd = new SQLiteCommand(sql, DBConfig.sqlite_connect);
+            DBConfig.sqlite_datareader = DBConfig.sqlite_cmd.ExecuteReader();
+
+            if (DBConfig.sqlite_datareader.HasRows)
+            {
+                while (DBConfig.sqlite_datareader.Read()) //read every data
+                {
+                    String id = DBConfig.sqlite_datareader["id"].ToString();
+                    int total_price = Convert.ToInt32(DBConfig.sqlite_datareader["total_price"]);
+                    String trans_time= DBConfig.sqlite_datareader["trans_time"].ToString();
+
+                    //button
+                    DataGridViewButtonCell buttonCell = new DataGridViewButtonCell();
+                    buttonCell.Value = "交易明細";
+                    buttonCell.Tag = "btnDetails"; // 按鈕列的名稱，可用於識別該列
+                    buttonCell.UseColumnTextForButtonValue = true; //shape
+
+                    DataGridViewRow row = new DataGridViewRow();
+                    row.Cells.Add(new DataGridViewTextBoxCell { Value = id });
+                    row.Cells.Add(new DataGridViewTextBoxCell { Value = total_price });
+                    row.Cells.Add(new DataGridViewTextBoxCell { Value = trans_time });
+                    row.Cells.Add(buttonCell);
+                    transOrderTable.Rows.Add(row);
+                }
+                DBConfig.sqlite_datareader.Close();
+            }
+        }
+
+        //交易訂單(按鈕事件)
+        private void transOrderTable_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            string id = transOrderTable.Rows[e.RowIndex].Cells["oid"].Value.ToString();
+            int total_price = Convert.ToInt32(transOrderTable.Rows[e.RowIndex].Cells["total_price"].Value);
+            string trans_time = transOrderTable.Rows[e.RowIndex].Cells["transTime"].Value.ToString();
+            showTransForm(id);
+        }
 
         //選擇餐點
         void inputtextBoxOrderData(String foodId, String foodName, int price,String type)
@@ -113,7 +172,7 @@ namespace login
                 }
                 else
                 {
-                        MessageBox.Show("請先選擇餐點再選擇數量");
+                    MessageBox.Show("請先選擇餐點再選擇數量");
                 }
             }
         }
@@ -200,7 +259,7 @@ namespace login
         {
             InitializeComponent();
             Load_DB();
-            //Show_DB();
+            showTransOrder();
 
         }
 
@@ -660,6 +719,7 @@ namespace login
         private void Checkout_Click(object sender, EventArgs e)
         {
             checkOut();
+            showTransOrder();
         }
 
         //-------------------------------------------
@@ -700,11 +760,10 @@ namespace login
         private void Draw_Click(object sender, EventArgs e)
         {
             // 1. 從資料庫獲取數據
-            string sql = @"
-        SELECT type, SUM(total_price) AS total_amount
-        FROM transform
-        WHERE type IN ('Alcohol', 'Meal', 'Appetizers', 'Shot')
-        GROUP BY type";
+            string sql = @"SELECT type, SUM(total_price) AS total_amount
+                           FROM transform
+                           WHERE type IN ('Alcohol', 'Meal', 'Appetizers', 'Shot')
+                           GROUP BY type";
 
             SQLiteCommand command = new SQLiteCommand(sql, DBConfig.sqlite_connect);
             SQLiteDataReader reader = command.ExecuteReader();
@@ -816,11 +875,10 @@ namespace login
                 string monthStart = new DateTime(now.Year, now.Month, 1).ToString("yyyy-MM-dd");
                 string monthEnd = new DateTime(now.Year, now.Month, DateTime.DaysInMonth(now.Year, now.Month)).ToString("yyyy-MM-dd");
 
-                string sql = $@"
-            SELECT name, SUM(amount) AS monthly_total
-            FROM transform,transOrder
-            WHERE transOrder.trans_time >= '{monthStart}' AND transOrder.trans_time <= '{monthEnd}' AND transform.Oid == transOrder.id
-            GROUP BY name";
+                string sql = $@"SELECT name, SUM(amount) AS monthly_total
+                                FROM transform,transOrder
+                                WHERE transOrder.trans_time >= '{monthStart}' AND transOrder.trans_time <= '{monthEnd}' AND transform.Oid == transOrder.id
+                                GROUP BY name";
 
                 SQLiteCommand command = new SQLiteCommand(sql, DBConfig.sqlite_connect);
                 SQLiteDataReader reader = command.ExecuteReader();
@@ -863,5 +921,5 @@ namespace login
             }
         }
     }
-    }
+}
 

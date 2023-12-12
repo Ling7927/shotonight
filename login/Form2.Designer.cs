@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.酒精 = new System.Windows.Forms.TabPage();
             this.button55 = new System.Windows.Forms.Button();
@@ -127,7 +127,6 @@
             this.productType = new System.Windows.Forms.TextBox();
             this.orderTable = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.drawTable = new System.Windows.Forms.TabControl();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.type = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.productName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -135,14 +134,18 @@
             this.quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.totalPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Remark = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.drawTable = new System.Windows.Forms.TabControl();
             this.TransactionDetailsTable = new System.Windows.Forms.TabPage();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.transOrderTable = new System.Windows.Forms.DataGridView();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.Draw = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.Export_draw_excel = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.Draw = new System.Windows.Forms.Button();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.oid = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.total_price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.transTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.transForm = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.酒精.SuspendLayout();
             this.主餐.SuspendLayout();
@@ -154,7 +157,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.drawTable.SuspendLayout();
             this.TransactionDetailsTable.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.transOrderTable)).BeginInit();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
@@ -195,10 +198,10 @@
             this.酒精.Controls.Add(this.button35);
             this.酒精.Controls.Add(this.button36);
             this.酒精.Controls.Add(this.button37);
-            this.酒精.Location = new System.Drawing.Point(4, 28);
+            this.酒精.Location = new System.Drawing.Point(4, 25);
             this.酒精.Name = "酒精";
             this.酒精.Padding = new System.Windows.Forms.Padding(3);
-            this.酒精.Size = new System.Drawing.Size(427, 332);
+            this.酒精.Size = new System.Drawing.Size(427, 335);
             this.酒精.TabIndex = 0;
             this.酒精.Text = "酒精";
             this.酒精.UseVisualStyleBackColor = true;
@@ -420,10 +423,10 @@
             this.主餐.Controls.Add(this.button32);
             this.主餐.Controls.Add(this.button33);
             this.主餐.Controls.Add(this.button34);
-            this.主餐.Location = new System.Drawing.Point(4, 28);
+            this.主餐.Location = new System.Drawing.Point(4, 25);
             this.主餐.Name = "主餐";
             this.主餐.Padding = new System.Windows.Forms.Padding(3);
-            this.主餐.Size = new System.Drawing.Size(427, 332);
+            this.主餐.Size = new System.Drawing.Size(427, 335);
             this.主餐.TabIndex = 1;
             this.主餐.Text = "主餐";
             this.主餐.UseVisualStyleBackColor = true;
@@ -586,9 +589,9 @@
             this.炸物.Controls.Add(this.button21);
             this.炸物.Controls.Add(this.button20);
             this.炸物.Controls.Add(this.button19);
-            this.炸物.Location = new System.Drawing.Point(4, 28);
+            this.炸物.Location = new System.Drawing.Point(4, 25);
             this.炸物.Name = "炸物";
-            this.炸物.Size = new System.Drawing.Size(427, 332);
+            this.炸物.Size = new System.Drawing.Size(427, 335);
             this.炸物.TabIndex = 2;
             this.炸物.Text = "下酒菜";
             this.炸物.UseVisualStyleBackColor = true;
@@ -733,9 +736,9 @@
             this.shot.Controls.Add(this.button28);
             this.shot.Controls.Add(this.button29);
             this.shot.Controls.Add(this.button30);
-            this.shot.Location = new System.Drawing.Point(4, 28);
+            this.shot.Location = new System.Drawing.Point(4, 25);
             this.shot.Name = "shot";
-            this.shot.Size = new System.Drawing.Size(427, 332);
+            this.shot.Size = new System.Drawing.Size(427, 335);
             this.shot.TabIndex = 3;
             this.shot.Text = "SHOT";
             this.shot.UseVisualStyleBackColor = true;
@@ -826,9 +829,9 @@
             this.套餐.Controls.Add(this.button24);
             this.套餐.Controls.Add(this.button25);
             this.套餐.Controls.Add(this.button26);
-            this.套餐.Location = new System.Drawing.Point(4, 28);
+            this.套餐.Location = new System.Drawing.Point(4, 25);
             this.套餐.Name = "套餐";
-            this.套餐.Size = new System.Drawing.Size(427, 332);
+            this.套餐.Size = new System.Drawing.Size(427, 335);
             this.套餐.TabIndex = 4;
             this.套餐.Text = "套餐";
             this.套餐.UseVisualStyleBackColor = true;
@@ -1027,7 +1030,7 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(252, 627);
+            this.button8.Location = new System.Drawing.Point(244, 616);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(214, 58);
             this.button8.TabIndex = 9;
@@ -1039,21 +1042,21 @@
             // 
             this.idBox.Location = new System.Drawing.Point(954, 605);
             this.idBox.Name = "idBox";
-            this.idBox.Size = new System.Drawing.Size(70, 29);
+            this.idBox.Size = new System.Drawing.Size(70, 25);
             this.idBox.TabIndex = 10;
             // 
             // nameBox
             // 
             this.nameBox.Location = new System.Drawing.Point(1121, 608);
             this.nameBox.Name = "nameBox";
-            this.nameBox.Size = new System.Drawing.Size(139, 29);
+            this.nameBox.Size = new System.Drawing.Size(139, 25);
             this.nameBox.TabIndex = 11;
             // 
             // priceBox
             // 
             this.priceBox.Location = new System.Drawing.Point(954, 644);
             this.priceBox.Name = "priceBox";
-            this.priceBox.Size = new System.Drawing.Size(70, 29);
+            this.priceBox.Size = new System.Drawing.Size(70, 25);
             this.priceBox.TabIndex = 12;
             // 
             // label2
@@ -1062,7 +1065,7 @@
             this.label2.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label2.Location = new System.Drawing.Point(889, 605);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 27);
+            this.label2.Size = new System.Drawing.Size(47, 18);
             this.label2.TabIndex = 13;
             this.label2.Text = "編號 : ";
             // 
@@ -1072,7 +1075,7 @@
             this.label3.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label3.Location = new System.Drawing.Point(1035, 608);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(111, 27);
+            this.label3.Size = new System.Drawing.Size(75, 18);
             this.label3.TabIndex = 14;
             this.label3.Text = "產品名稱 : ";
             // 
@@ -1082,7 +1085,7 @@
             this.label4.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label4.Location = new System.Drawing.Point(889, 644);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 27);
+            this.label4.Size = new System.Drawing.Size(47, 18);
             this.label4.TabIndex = 15;
             this.label4.Text = "單價 : ";
             // 
@@ -1092,7 +1095,7 @@
             this.label5.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label5.Location = new System.Drawing.Point(1035, 644);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 27);
+            this.label5.Size = new System.Drawing.Size(47, 18);
             this.label5.TabIndex = 16;
             this.label5.Text = "數量 : ";
             // 
@@ -1100,14 +1103,14 @@
             // 
             this.quantityBox.Location = new System.Drawing.Point(1097, 644);
             this.quantityBox.Name = "quantityBox";
-            this.quantityBox.Size = new System.Drawing.Size(70, 29);
+            this.quantityBox.Size = new System.Drawing.Size(70, 25);
             this.quantityBox.TabIndex = 17;
             // 
             // totalPriceBox
             // 
             this.totalPriceBox.Location = new System.Drawing.Point(1236, 646);
             this.totalPriceBox.Name = "totalPriceBox";
-            this.totalPriceBox.Size = new System.Drawing.Size(70, 29);
+            this.totalPriceBox.Size = new System.Drawing.Size(70, 25);
             this.totalPriceBox.TabIndex = 19;
             // 
             // label6
@@ -1116,7 +1119,7 @@
             this.label6.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label6.Location = new System.Drawing.Point(1174, 646);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 27);
+            this.label6.Size = new System.Drawing.Size(47, 18);
             this.label6.TabIndex = 18;
             this.label6.Text = "金額 : ";
             // 
@@ -1126,7 +1129,7 @@
             this.label7.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label7.Location = new System.Drawing.Point(1035, 682);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(69, 27);
+            this.label7.Size = new System.Drawing.Size(47, 18);
             this.label7.TabIndex = 20;
             this.label7.Text = "備註 : ";
             // 
@@ -1134,7 +1137,7 @@
             // 
             this.remarkBox.Location = new System.Drawing.Point(1096, 680);
             this.remarkBox.Name = "remarkBox";
-            this.remarkBox.Size = new System.Drawing.Size(210, 29);
+            this.remarkBox.Size = new System.Drawing.Size(210, 25);
             this.remarkBox.TabIndex = 21;
             // 
             // label8
@@ -1143,7 +1146,7 @@
             this.label8.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label8.Location = new System.Drawing.Point(889, 682);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(69, 27);
+            this.label8.Size = new System.Drawing.Size(47, 18);
             this.label8.TabIndex = 23;
             this.label8.Text = "類型 : ";
             // 
@@ -1151,17 +1154,17 @@
             // 
             this.productType.Location = new System.Drawing.Point(954, 682);
             this.productType.Name = "productType";
-            this.productType.Size = new System.Drawing.Size(70, 29);
+            this.productType.Size = new System.Drawing.Size(70, 25);
             this.productType.TabIndex = 22;
             this.productType.TextChanged += new System.EventHandler(this.productType_TextChanged);
             // 
             // orderTable
             // 
             this.orderTable.Controls.Add(this.dataGridView1);
-            this.orderTable.Location = new System.Drawing.Point(4, 28);
+            this.orderTable.Location = new System.Drawing.Point(4, 25);
             this.orderTable.Name = "orderTable";
             this.orderTable.Padding = new System.Windows.Forms.Padding(3);
-            this.orderTable.Size = new System.Drawing.Size(853, 566);
+            this.orderTable.Size = new System.Drawing.Size(853, 569);
             this.orderTable.TabIndex = 0;
             this.orderTable.Text = "點餐";
             this.orderTable.UseVisualStyleBackColor = true;
@@ -1187,17 +1190,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(857, 569);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // drawTable
-            // 
-            this.drawTable.Controls.Add(this.orderTable);
-            this.drawTable.Controls.Add(this.TransactionDetailsTable);
-            this.drawTable.Controls.Add(this.tabPage1);
-            this.drawTable.Location = new System.Drawing.Point(10, 12);
-            this.drawTable.Name = "drawTable";
-            this.drawTable.SelectedIndex = 0;
-            this.drawTable.Size = new System.Drawing.Size(861, 598);
-            this.drawTable.TabIndex = 5;
             // 
             // id
             // 
@@ -1243,36 +1235,45 @@
             this.Remark.MinimumWidth = 6;
             this.Remark.Name = "Remark";
             // 
+            // drawTable
+            // 
+            this.drawTable.Controls.Add(this.orderTable);
+            this.drawTable.Controls.Add(this.TransactionDetailsTable);
+            this.drawTable.Controls.Add(this.tabPage1);
+            this.drawTable.Location = new System.Drawing.Point(10, 12);
+            this.drawTable.Name = "drawTable";
+            this.drawTable.SelectedIndex = 0;
+            this.drawTable.Size = new System.Drawing.Size(861, 598);
+            this.drawTable.TabIndex = 5;
+            // 
             // TransactionDetailsTable
             // 
-            this.TransactionDetailsTable.Controls.Add(this.dataGridView2);
-            this.TransactionDetailsTable.Location = new System.Drawing.Point(4, 28);
+            this.TransactionDetailsTable.Controls.Add(this.transOrderTable);
+            this.TransactionDetailsTable.Location = new System.Drawing.Point(4, 25);
             this.TransactionDetailsTable.Name = "TransactionDetailsTable";
             this.TransactionDetailsTable.Padding = new System.Windows.Forms.Padding(3);
-            this.TransactionDetailsTable.Size = new System.Drawing.Size(853, 566);
+            this.TransactionDetailsTable.Size = new System.Drawing.Size(853, 569);
             this.TransactionDetailsTable.TabIndex = 1;
-            this.TransactionDetailsTable.Text = "交易明細";
+            this.TransactionDetailsTable.Text = "交易訂單";
             this.TransactionDetailsTable.UseVisualStyleBackColor = true;
             // 
-            // dataGridView2
+            // transOrderTable
             // 
-            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1});
-            this.dataGridView2.Location = new System.Drawing.Point(13, 19);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 62;
-            this.dataGridView2.RowTemplate.Height = 31;
-            this.dataGridView2.Size = new System.Drawing.Size(843, 550);
-            this.dataGridView2.TabIndex = 0;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Column1";
-            this.Column1.MinimumWidth = 8;
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 150;
+            this.transOrderTable.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.transOrderTable.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.transOrderTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.transOrderTable.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.oid,
+            this.total_price,
+            this.transTime,
+            this.transForm});
+            this.transOrderTable.Location = new System.Drawing.Point(13, 19);
+            this.transOrderTable.Name = "transOrderTable";
+            this.transOrderTable.RowHeadersWidth = 62;
+            this.transOrderTable.RowTemplate.Height = 31;
+            this.transOrderTable.Size = new System.Drawing.Size(843, 550);
+            this.transOrderTable.TabIndex = 0;
+            this.transOrderTable.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.transOrderTable_CellContentClick);
             // 
             // tabPage1
             // 
@@ -1280,41 +1281,23 @@
             this.tabPage1.Controls.Add(this.button4);
             this.tabPage1.Controls.Add(this.Draw);
             this.tabPage1.Controls.Add(this.chart1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 28);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(853, 566);
+            this.tabPage1.Size = new System.Drawing.Size(853, 569);
             this.tabPage1.TabIndex = 2;
             this.tabPage1.Text = "圖表分析";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // chart1
+            // Export_draw_excel
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
-            this.chart1.Location = new System.Drawing.Point(3, 3);
-            this.chart1.Name = "chart1";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series3.Label = "#VAL";
-            series3.Legend = "Legend1";
-            series3.Name = "stocks";
-            this.chart1.Series.Add(series3);
-            this.chart1.Size = new System.Drawing.Size(681, 416);
-            this.chart1.TabIndex = 0;
-            this.chart1.Text = "chart1";
-            // 
-            // Draw
-            // 
-            this.Draw.Location = new System.Drawing.Point(9, 474);
-            this.Draw.Name = "Draw";
-            this.Draw.Size = new System.Drawing.Size(183, 83);
-            this.Draw.TabIndex = 1;
-            this.Draw.Text = "繪圖表";
-            this.Draw.UseVisualStyleBackColor = true;
-            this.Draw.Click += new System.EventHandler(this.Draw_Click);
+            this.Export_draw_excel.Location = new System.Drawing.Point(476, 472);
+            this.Export_draw_excel.Name = "Export_draw_excel";
+            this.Export_draw_excel.Size = new System.Drawing.Size(183, 83);
+            this.Export_draw_excel.TabIndex = 3;
+            this.Export_draw_excel.Text = "匯出Excel";
+            this.Export_draw_excel.UseVisualStyleBackColor = true;
+            this.Export_draw_excel.Click += new System.EventHandler(this.Export_draw_excel_Click);
             // 
             // button4
             // 
@@ -1326,15 +1309,53 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
-            // Export_draw_excel
+            // Draw
             // 
-            this.Export_draw_excel.Location = new System.Drawing.Point(476, 472);
-            this.Export_draw_excel.Name = "Export_draw_excel";
-            this.Export_draw_excel.Size = new System.Drawing.Size(183, 83);
-            this.Export_draw_excel.TabIndex = 3;
-            this.Export_draw_excel.Text = "匯出Excel";
-            this.Export_draw_excel.UseVisualStyleBackColor = true;
-            this.Export_draw_excel.Click += new System.EventHandler(this.Export_draw_excel_Click);
+            this.Draw.Location = new System.Drawing.Point(9, 474);
+            this.Draw.Name = "Draw";
+            this.Draw.Size = new System.Drawing.Size(183, 83);
+            this.Draw.TabIndex = 1;
+            this.Draw.Text = "繪圖表";
+            this.Draw.UseVisualStyleBackColor = true;
+            this.Draw.Click += new System.EventHandler(this.Draw_Click);
+            // 
+            // chart1
+            // 
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
+            this.chart1.Location = new System.Drawing.Point(3, 3);
+            this.chart1.Name = "chart1";
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series2.Label = "#VAL";
+            series2.Legend = "Legend1";
+            series2.Name = "stocks";
+            this.chart1.Series.Add(series2);
+            this.chart1.Size = new System.Drawing.Size(681, 416);
+            this.chart1.TabIndex = 0;
+            this.chart1.Text = "chart1";
+            // 
+            // oid
+            // 
+            this.oid.HeaderText = "訂單編號";
+            this.oid.Name = "oid";
+            // 
+            // total_price
+            // 
+            this.total_price.HeaderText = "交易總金額";
+            this.total_price.Name = "total_price";
+            // 
+            // transTime
+            // 
+            this.transTime.HeaderText = "交易時間";
+            this.transTime.Name = "transTime";
+            // 
+            // transForm
+            // 
+            this.transForm.HeaderText = "交易明細";
+            this.transForm.Name = "transForm";
             // 
             // Report
             // 
@@ -1372,7 +1393,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.drawTable.ResumeLayout(false);
             this.TransactionDetailsTable.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.transOrderTable)).EndInit();
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
@@ -1491,12 +1512,15 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Remark;
         private System.Windows.Forms.TabControl drawTable;
         private System.Windows.Forms.TabPage TransactionDetailsTable;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridView transOrderTable;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button Draw;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private System.Windows.Forms.Button Export_draw_excel;
+        private System.Windows.Forms.DataGridViewTextBoxColumn oid;
+        private System.Windows.Forms.DataGridViewTextBoxColumn total_price;
+        private System.Windows.Forms.DataGridViewTextBoxColumn transTime;
+        private System.Windows.Forms.DataGridViewTextBoxColumn transForm;
     }
 }
