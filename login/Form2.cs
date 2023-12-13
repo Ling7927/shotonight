@@ -12,6 +12,8 @@ using static System.Windows.Forms.AxHost;
 using System.Xml.Linq;
 using System.Windows.Forms.DataVisualization.Charting;
 using Excel = Microsoft.Office.Interop.Excel;
+using Microsoft.Office.Interop.Access.Dao;
+
 namespace login
 {
 
@@ -105,8 +107,7 @@ namespace login
                 {
                     String id = DBConfig.sqlite_datareader["id"].ToString();
                     int total_price = Convert.ToInt32(DBConfig.sqlite_datareader["total_price"]);
-                    String trans_time= DBConfig.sqlite_datareader["trans_time"].ToString();
-
+                    String _date_str = DBConfig.sqlite_datareader["trans_time"].ToString();
                     //button
                     DataGridViewButtonCell buttonCell = new DataGridViewButtonCell();
                     buttonCell.Value = "交易明細";
@@ -116,7 +117,7 @@ namespace login
                     DataGridViewRow row = new DataGridViewRow();
                     row.Cells.Add(new DataGridViewTextBoxCell { Value = id });
                     row.Cells.Add(new DataGridViewTextBoxCell { Value = total_price });
-                    row.Cells.Add(new DataGridViewTextBoxCell { Value = trans_time });
+                    row.Cells.Add(new DataGridViewTextBoxCell { Value = _date_str });
                     row.Cells.Add(buttonCell);
                     transOrderTable.Rows.Add(row);
                 }
